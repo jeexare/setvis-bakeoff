@@ -14,7 +14,7 @@
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
-    "withSidebar": false
+    "withSidebar": true
   },
   "components": {
     "introduction": {
@@ -99,10 +99,25 @@
           ]
         }
       ]
+    },
+    "figmaTask": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "instruction": "Please explore the prototype below. As you navigate, speak your thoughts aloud — tell us what you notice, what you expect, and anything that feels unclear or surprising.",
+      "response": [
+        {
+          "id": "q3-demo-radio",
+          "prompt": "Demo: Radio buttons",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Option A", "Option B", "Option C"]
+        }
+      ]
     }
   },
   "sequence": {
     "order": "fixed",
-    "components": ["introduction", "first-question-set", "second-question-set"]
+    "components": ["introduction", "figmaTask", "first-question-set", "second-question-set"]
   }
 }
