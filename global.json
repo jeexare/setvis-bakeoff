@@ -2,6 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.2/src/parser/GlobalConfigSchema.json",
   "configsList": [
     "basic-questionnaire-study",
+    "basic-tasks",
     "tutorial",
     "tutorial-replication",
     "demo-html",
@@ -55,6 +56,9 @@
   "configs": {
     "basic-questionnaire-study": {
       "path": "basic-questionnaire-study/config.json"
+    },
+    "basic-tasks": {
+      "path": "basic-tasks/config.json"
     },
     "tutorial": {
       "path": "tutorial/config.json"

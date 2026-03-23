@@ -1,0 +1,233 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "Basic Tasks",
+    "version": "pilot",
+    "authors": ["Gabriela Rubio"],
+    "date": "2026-03-22",
+    "description": "Testing the tasks",
+    "organizations": ["University of Utah", "WPI"]
+  },
+  "uiConfig": {
+    "contactEmail": "hgrubiof@gmail.com",
+    "helpTextPath": "basic-tasks/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "withProgressBar": true,
+    "autoDownloadStudy": false,
+    "withSidebar": true
+  },
+  "components": {
+    "introduction": {
+      "type": "markdown",
+      "path": "basic-tasks/assets/introduction.md",
+      "response": []
+    },
+    "task1": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "task2": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "task3": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/Tennis-DataSet?page-id=82%3A3170&node-id=105-7098&p=f&viewport=98%2C114%2C0.78&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=105%3A7098&embed-host=share",
+      "response": [
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        }
+      ]
+    },
+    "task4": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "task5": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "task6": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        }
+      ]
+    },
+    "task7": {
+      "type": "website",
+      "path": "https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/Tennis-DataSet?page-id=82%3A3170&node-id=105-7098&p=f&viewport=98%2C114%2C0.78&t=GtFAyu1c4IKjJW6N-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=105%3A7098",
+      "response": [
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        }
+      ]
+    },
+    "task8": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        }
+      ]
+    },
+    "task9": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "task10": {
+      "type": "website",
+      "path": "https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/Tennis-DataSet?page-id=82%3A3170&node-id=105-7098&p=f&viewport=98%2C114%2C0.78&t=GtFAyu1c4IKjJW6N-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=105%3A7098",
+      "response": [
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "task11": {
+      "type": "website",
+      "path": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/MetroSets-Tennis?node-id=2-787&scaling=contain&hide-ui=1",
+      "response": [
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        }
+      ]
+    },
+    "task12": {
+      "type": "website",
+      "path": "https://www.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/Tennis-DataSet?page-id=82%3A3170&node-id=105-7098&p=f&viewport=98%2C114%2C0.78&t=GtFAyu1c4IKjJW6N-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=105%3A7098",
+      "response": [
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    }
+  },
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "introduction",
+      "task1",
+      "task2",
+      "task3",
+      "task4",
+      "task5",
+      "task6",
+      "task7",
+      "task8",
+      "task9",
+      "task10",
+      "task11",
+      "task12"
+    ]
+  }
+}
