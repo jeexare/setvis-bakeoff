@@ -1,0 +1,608 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "Basic Pilot Study",
+    "version": "pilot",
+    "authors": ["Gabriela Rubio"],
+    "date": "2026-05-04",
+    "description": "Testing the layout of the pilot study",
+    "organizations": ["University of Utah", "WPI"]
+  },
+  "uiConfig": {
+    "contactEmail": "hgrubiof@gmail.com",
+    "helpTextPath": "basic-pilot/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "withProgressBar": true,
+    "autoDownloadStudy": false,
+    "withSidebar": true,
+    "stylesheetPath": "basic-pilot/assets/layout.css"
+  },
+  "importedLibraries": ["mini-vlat", "nasa-tlx"],
+  "components": {
+    "consent": {
+      "type": "markdown",
+      "path": "basic-pilot/assets/introduction.md",
+      "response": []
+    },
+    "demographics": {
+      "type": "markdown",
+      "path": "basic-pilot/assets/introduction.md",
+      "response": []
+    },
+    "tutorial": {
+      "type": "markdown",
+      "path": "basic-pilot/assets/introduction.md",
+      "response": []
+    },
+    "upset-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "metroset-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/aBVi4E3znmM4fIv9W09akD/MetroSet-Tennis?node-id=34-6466&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "hoops-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/Nm2kiqI7QGzGGRzLKpco42/Hoops-Tennis?node-id=137-4951&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "supervenn-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/JZiCjyoMFTqRIeAk1G8H4b/SuperVenn-Tennis?node-id=173-9511&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    }
+  },
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "consent",
+      "demographics",
+      "$mini-vlat.sequences.full",
+      "tutorial",
+      {
+        "order": "latinSquare",
+        "components": [
+          {
+            "order": "fixed",
+            "components": [
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": ["upset-tennis"]
+              },
+              "$nasa-tlx.components.nasa-tlx"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": ["metroset-tennis"]
+              },
+              "$nasa-tlx.components.nasa-tlx"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": ["hoops-tennis"]
+              },
+              "$nasa-tlx.components.nasa-tlx"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": ["supervenn-tennis"]
+              },
+              "$nasa-tlx.components.nasa-tlx"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
