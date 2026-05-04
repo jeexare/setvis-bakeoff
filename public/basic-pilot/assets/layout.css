@@ -1,0 +1,20 @@
+.main {
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+.sidebar {
+  overflow-y: auto;
+  height: calc(100vh - 70px);
+}
+
+#upset-tennis {
+  width: 697px;
+  display: flex;
+  height: 607px;
+  border: none;
+}
