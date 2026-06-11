@@ -599,25 +599,6 @@
                 "order": "latinSquare",
                 "numSamples": 1,
                 "components": [
-                  "upset-tennis",
-                  "upset-orgs",
-                  "upset-movies",
-                  "upset-covid"
-                ]
-              },
-              "$nasa-tlx.components.nasa-tlx"
-            ]
-          },
-          {
-            "order": "fixed",
-            "components": [
-              {
-                "order": "latinSquare",
-                "numSamples": 1,
-                "components": [
-                  "upset-orgs",
-                  "upset-movies",
-                  "upset-covid",
                   "upset-tennis"
                 ]
               },
@@ -631,9 +612,6 @@
                 "order": "latinSquare",
                 "numSamples": 1,
                 "components": [
-                  "upset-movies",
-                  "upset-covid",
-                  "upset-tennis",
                   "upset-orgs"
                 ]
               },
@@ -647,10 +625,20 @@
                 "order": "latinSquare",
                 "numSamples": 1,
                 "components": [
-                  "upset-covid",
-                  "upset-tennis",
-                  "upset-orgs",
                   "upset-movies"
+                ]
+              },
+              "$nasa-tlx.components.nasa-tlx"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  "upset-covid"
                 ]
               },
               "$nasa-tlx.components.nasa-tlx"
