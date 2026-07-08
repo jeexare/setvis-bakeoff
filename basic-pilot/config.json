@@ -579,6 +579,1434 @@
           "options": ["Yes", "No"]
         }
       ]
+    },
+      "metroset-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/aBVi4E3znmM4fIv9W09akD/MetroSet-Tennis?node-id=34-6466&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+        "metroset-orgs": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/TKkfmKwQcp4hBrb6rg9qvu/MetroSet-Orgs?node-id=4007-1064&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share", 
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which organization has the most member countries in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which organization has the fewest member countries?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many countries belong to the most common combination of organizations?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many organizations make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "Do any countries belong to both APEC and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "Do any countries belong to both G-77 and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "How many countries are members of CERN?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q9-task",
+          "prompt": "Which organizations does CERN overlap with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Do any countries belong to both G-5 and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Do any countries belong to both SAARC and ADB?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Are there any countries that do not belong to any organization in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "metroset-movies": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which genre has the most movies in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which genre has the fewest movies?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many movies belong to the most common single-genre combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many genres make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "How many movies belong to both Drama and Comedy?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q7-task",
+          "prompt": "How many movies belong to both Drama and Romance?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Do any movies belong to both Western and SciFi?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many movies belong to both Noir and Thriller?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Which genre overlaps with the most other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "How many movies belong to both Action and Comedy?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q12-task",
+          "prompt": "How many movies belong to Horror only, with no other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "metroset-covid": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which symptom is reported by the most patients in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which symptom is reported by the fewest patients?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many patients belong to the most common combination of symptoms?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many symptoms make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "Do any patients have both Fever and Cough?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "Do any patients have both Fever and Anosmia",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "How many patients have Shortness of breath?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q9-task",
+          "prompt": "Which symptoms does Fever overlap with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Do any patients have both Cough and Fatigue?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Do any patients have both Anosmia and Cough?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    },
+    "hoops-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/Nm2kiqI7QGzGGRzLKpco42/Hoops-Tennis?node-id=137-4951&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+        "hoops-orgs": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which organization has the most member countries in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which organization has the fewest member countries?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many countries belong to the most common combination of organizations?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many organizations make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "Do any countries belong to both APEC and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "Do any countries belong to both G-77 and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "How many countries are members of CERN?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q9-task",
+          "prompt": "Which organizations does CERN overlap with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Do any countries belong to both G-5 and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Do any countries belong to both SAARC and ADB?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Are there any countries that do not belong to any organization in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "hoops-movies": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which genre has the most movies in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which genre has the fewest movies?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many movies belong to the most common single-genre combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many genres make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "How many movies belong to both Drama and Comedy?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q7-task",
+          "prompt": "How many movies belong to both Drama and Romance?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Do any movies belong to both Western and SciFi?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many movies belong to both Noir and Thriller?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Which genre overlaps with the most other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "How many movies belong to both Action and Comedy?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q12-task",
+          "prompt": "How many movies belong to Horror only, with no other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "hoops-covid": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which symptom is reported by the most patients in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which symptom is reported by the fewest patients?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many patients belong to the most common combination of symptoms?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many symptoms make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "Do any patients have both Fever and Cough?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "Do any patients have both Fever and Anosmia",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "How many patients have Shortness of breath?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q9-task",
+          "prompt": "Which symptoms does Fever overlap with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Do any patients have both Cough and Fatigue?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Do any patients have both Anosmia and Cough?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    },
+    "supervenn-tennis": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/JZiCjyoMFTqRIeAk1G8H4b/SuperVenn-Tennis?node-id=173-9511&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": {
+        "width": "1000px",
+        "margin": "0 auto"
+      },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "How many players have won both the French Open and the Australian Open?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many players belong to the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q6-task",
+          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "What is the most common combination of sets that players belong to?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Mens & French Open",
+            "Womens & Australian Open",
+            "Mens & Australian Open",
+            "Womens & French Open"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Which sets overlap with the most other sets?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Wimbledon",
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many sets make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Is the French Open part of the largest intersection?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Which tournaments does Wimbledon share winners with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "US Open",
+            "French Open",
+            "Autralian Open",
+            "Mens",
+            "Womens"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Is there any player who has won all Grand Slams in both categories?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+        "supervenn-orgs": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which organization has the most member countries in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which organization has the fewest member countries?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many countries belong to the most common combination of organizations?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many organizations make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "Do any countries belong to both APEC and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "Do any countries belong to both G-77 and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "How many countries are members of CERN?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q9-task",
+          "prompt": "Which organizations does CERN overlap with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Do any countries belong to both G-5 and NATO?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Do any countries belong to both SAARC and ADB?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Are there any countries that do not belong to any organization in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        }
+      ]
+    },
+    "supervenn-movies": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which genre has the most movies in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which genre has the fewest movies?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many movies belong to the most common single-genre combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many genres make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "How many movies belong to both Drama and Comedy?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q7-task",
+          "prompt": "How many movies belong to both Drama and Romance?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q8-task",
+          "prompt": "Do any movies belong to both Western and SciFi?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": "q9-task",
+          "prompt": "How many movies belong to both Noir and Thriller?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Which genre overlaps with the most other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "How many movies belong to both Action and Comedy?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q12-task",
+          "prompt": "How many movies belong to Horror only, with no other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        }
+      ]
+    },
+    "supervenn-covid": {
+      "type": "website",
+      "path": "https://embed.figma.com/proto/5ELyr99edMsuokLSJwNcNk/SuperVenn-Covid?node-id=2018-286&&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
+      "nextButtonLocation": "sidebar",
+      "style": { "width": "1000px", "margin": "0 auto" },
+      "response": [
+        {
+          "id": "q1-task",
+          "prompt": "How many sets are represented in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q2-task",
+          "prompt": "Which symptom is reported by the most patients in this dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q3-task",
+          "prompt": "Which symptom is reported by the fewest patients?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q4-task",
+          "prompt": "How many patients belong to the most common combination of symptoms?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q5-task",
+          "prompt": "How many symptoms make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q6-task",
+          "prompt": "Do any patients have both Fever and Cough?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q7-task",
+          "prompt": "Do any patients have both Fever and Anosmia",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q8-task",
+          "prompt": "How many patients have Shortness of breath?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
+          "id": "q9-task",
+          "prompt": "Which symptoms does Fever overlap with?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q10-task",
+          "prompt": "Do any patients have both Cough and Fatigue?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q11-task",
+          "prompt": "Do any patients have both Anosmia and Cough?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "q12-task",
+          "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
     }
   },
   "sequence": {
@@ -599,7 +2027,7 @@
                 "order": "latinSquare",
                 "numSamples": 1,
                 "components": [
-                  "upset-tennis"
+                  "hoops-tennis"
                 ]
               },
               "$nasa-tlx.components.nasa-tlx"
@@ -612,7 +2040,7 @@
                 "order": "latinSquare",
                 "numSamples": 1,
                 "components": [
-                  "upset-orgs"
+                  "metroset-orgs"
                 ]
               },
               "$nasa-tlx.components.nasa-tlx"
@@ -638,7 +2066,7 @@
                 "order": "latinSquare",
                 "numSamples": 1,
                 "components": [
-                  "upset-covid"
+                  "supervenn-covid"
                 ]
               },
               "$nasa-tlx.components.nasa-tlx"
