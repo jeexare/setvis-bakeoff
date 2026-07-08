@@ -33,68 +33,51 @@
       "type": "questionnaire",
       "response": [
         {
-          "id": "age",
-          "type": "numerical",
-          "prompt": "What is your age?",
-          "required": true,
-          "location": "aboveStimulus",
-          "placeholder": "Enter your age",
-          "min": 18,
-          "max": 100
-        },
-        {
           "id": "gender",
           "type": "radio",
-          "prompt": "What is your gender?",
+          "prompt": "How would you rate your experience interpreting data visualizations (such as charts, graphs, or diagrams)?",
           "required": true,
           "location": "aboveStimulus",
-          "options": [
-            "Man",
-            "Woman",
-            "Non-binary / gender non-conforming",
-            "Prefer to self-describe",
-            "Prefer not to say"
-          ]
+          "options": ["None", "Beginner", "Intermediate", "Advanced", "Expert"]
         },
         {
-          "id": "education",
-          "type": "radio",
-          "prompt": "What is the highest level of education you have completed?",
-          "required": true,
+          "id": "familiarity",
+          "prompt": "How familiar were you with each of the following visualization techniques before starting the study?",
           "location": "aboveStimulus",
-          "options": [
-            "High school diploma or equivalent",
-            "Some college or associate degree",
-            "Bachelor's degree",
-            "Master's degree",
-            "Doctoral or professional degree",
-            "Prefer not to say"
+          "type": "matrix-checkbox",
+          "answerOptions": [
+            "Never seen",
+            "Seen before",
+            "Somewhat familiar",
+            "Very familiar"
+          ],
+          "questionOptions": [
+            "UpSet plots",
+            "MetroSets",
+            "Hoop diagrams",
+            "SuperVenn diagrams"
           ]
         },
         {
           "id": "vizExperience",
-          "type": "likert",
-          "prompt": "How much experience do you have working with data visualizations (charts, graphs, diagrams)?",
+          "type": "radio",
+          "prompt": "Have you previously taken a course in data visualization or information visualization?",
           "required": true,
           "location": "aboveStimulus",
-          "numItems": 5,
-          "leftLabel": "No experience",
-          "rightLabel": "Expert"
+          "options": ["Yes", "No"]
         },
         {
-          "id": "setFamiliarity",
-          "type": "likert",
-          "prompt": "How familiar are you with set diagrams specifically (e.g. Venn diagrams, UpSet plots)?",
+          "id": "recognition",
+          "type": "longText",
+          "prompt": "Did you recognize any of the visualization techniques before participating in this study? If so, which ones?",
           "required": true,
           "location": "aboveStimulus",
-          "numItems": 5,
-          "leftLabel": "Never seen one",
-          "rightLabel": "Use them regularly"
+          "placeholder": "Type here..."
         },
         {
           "id": "visionIssues",
           "type": "longText",
-          "prompt": "Do you have any visual perception issues (for example: color vision deficiency, low vision, astigmatism)? If none, write \"None\".",
+          "prompt": "Do you have any visual conditions that may affect how you perceive visualizations (for example, color vision deficiency, low vision, or uncorrected vision problems)? If none, write \"None\".",
           "required": true,
           "location": "aboveStimulus",
           "placeholder": "Type here..."
@@ -103,6 +86,30 @@
           "id": "strategies",
           "type": "longText",
           "prompt": "Did you use any strategies or notice any patterns while completing the tasks?",
+          "required": true,
+          "location": "aboveStimulus",
+          "placeholder": "Type here..."
+        },
+        {
+          "id": "difficultVisualizations",
+          "type": "longText",
+          "prompt": "Were there any visualizations that you found particularly confusing or difficult to use?",
+          "required": true,
+          "location": "aboveStimulus",
+          "placeholder": "Type here..."
+        },
+        {
+          "id": "bugs",
+          "type": "longText",
+          "prompt": "Did you encounter any bugs, technical issues, or unexpected behavior during the study?",
+          "required": true,
+          "location": "aboveStimulus",
+          "placeholder": "Type here..."
+        },
+        {
+          "id": "additional",
+          "type": "longText",
+          "prompt": "Is there anything else you would like us to know about your experience?",
           "required": true,
           "location": "aboveStimulus",
           "placeholder": "Type here..."
@@ -580,7 +587,7 @@
         }
       ]
     },
-      "metroset-tennis": {
+    "metroset-tennis": {
       "type": "website",
       "path": "https://embed.figma.com/proto/aBVi4E3znmM4fIv9W09akD/MetroSet-Tennis?node-id=34-6466&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
@@ -708,9 +715,9 @@
         }
       ]
     },
-        "metroset-orgs": {
+    "metroset-orgs": {
       "type": "website",
-      "path": "https://embed.figma.com/proto/TKkfmKwQcp4hBrb6rg9qvu/MetroSet-Orgs?node-id=4007-1064&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share", 
+      "path": "https://embed.figma.com/proto/TKkfmKwQcp4hBrb6rg9qvu/MetroSet-Orgs?node-id=4007-1064&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
@@ -984,10 +991,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q7-task",
@@ -995,10 +999,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q8-task",
@@ -1027,10 +1028,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q11-task",
@@ -1038,10 +1036,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q12-task",
@@ -1049,10 +1044,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         }
       ]
     },
@@ -1184,7 +1176,7 @@
         }
       ]
     },
-        "hoops-orgs": {
+    "hoops-orgs": {
       "type": "website",
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
@@ -1460,10 +1452,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q7-task",
@@ -1471,10 +1460,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q8-task",
@@ -1503,10 +1489,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q11-task",
@@ -1514,10 +1497,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q12-task",
@@ -1525,10 +1505,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         }
       ]
     },
@@ -1660,7 +1637,7 @@
         }
       ]
     },
-        "supervenn-orgs": {
+    "supervenn-orgs": {
       "type": "website",
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
@@ -1936,10 +1913,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q7-task",
@@ -1947,10 +1921,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q8-task",
@@ -1979,10 +1950,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q11-task",
@@ -1990,10 +1958,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         },
         {
           "id": "q12-task",
@@ -2001,10 +1966,7 @@
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": [
-            "Yes",
-            "No"
-          ]
+          "options": ["Yes", "No"]
         }
       ]
     }
@@ -2026,9 +1988,7 @@
               {
                 "order": "latinSquare",
                 "numSamples": 1,
-                "components": [
-                  "hoops-tennis"
-                ]
+                "components": ["hoops-tennis"]
               },
               "$nasa-tlx.components.nasa-tlx"
             ]
@@ -2039,9 +1999,7 @@
               {
                 "order": "latinSquare",
                 "numSamples": 1,
-                "components": [
-                  "metroset-orgs"
-                ]
+                "components": ["metroset-orgs"]
               },
               "$nasa-tlx.components.nasa-tlx"
             ]
@@ -2052,9 +2010,7 @@
               {
                 "order": "latinSquare",
                 "numSamples": 1,
-                "components": [
-                  "upset-movies"
-                ]
+                "components": ["upset-movies"]
               },
               "$nasa-tlx.components.nasa-tlx"
             ]
@@ -2065,9 +2021,7 @@
               {
                 "order": "latinSquare",
                 "numSamples": 1,
-                "components": [
-                  "supervenn-covid"
-                ]
+                "components": ["supervenn-covid"]
               },
               "$nasa-tlx.components.nasa-tlx"
             ]
