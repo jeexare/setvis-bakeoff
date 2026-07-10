@@ -625,14 +625,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-upsetcovid",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-upsetcovid",
           "prompt": "Which symptom is reported by the most patients in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -647,7 +647,7 @@
           ]
         },
         {
-          "id": "q3-task",
+          "id": "q3-upsetcovid",
           "prompt": "Which symptom is reported by the fewest patients?",
           "required": true,
           "location": "sidebar",
@@ -662,21 +662,21 @@
           ]
         },
         {
-          "id": "q4-task",
+          "id": "q4-upsetcovid",
           "prompt": "How many patients belong to the most common combination of symptoms?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-upsetcovid",
           "prompt": "How many symptoms make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-upsetcovid",
           "prompt": "Do any patients have both Fever and Cough?",
           "required": true,
           "location": "sidebar",
@@ -684,7 +684,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-upsetcovid",
           "prompt": "Do any patients have both Fever and Anosmia",
           "required": true,
           "location": "sidebar",
@@ -692,14 +692,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-upsetcovid",
           "prompt": "How many patients have Shortness of breath?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-upsetcovid",
           "prompt": "Which symptoms does Fever overlap with?",
           "required": true,
           "location": "sidebar",
@@ -713,7 +713,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-upsetcovid",
           "prompt": "Do any patients have both Cough and Fatigue?",
           "required": true,
           "location": "sidebar",
@@ -721,7 +721,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-upsetcovid",
           "prompt": "Do any patients have both Anosmia and Cough?",
           "required": true,
           "location": "sidebar",
@@ -729,7 +729,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-upsetcovid",
           "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
           "required": true,
           "location": "sidebar",
@@ -739,52 +739,58 @@
       ],
        "correctAnswer": [
         {
-          "id": "q1-upsettennis",
-          "answer": ","
+          "id": "q1-upsetcovid",
+          "answer": 6
         },
         {
-          "id": "q2-upsettennis",
-          "answer": ","
+          "id": "q2-upsetcovid",
+          "answer": "Fatigue"
         },
         {
-          "id": "q3-upsettennis",
-          "answer": ","
+          "id": "q3-upsetcovid",
+          "answer": "Shortness of breath"
         },
         {
-          "id": "q4-upsettennis",
-          "answer": ","
+          "id": "q4-upsetcovid",
+          "answer": 281
         },
         {
-          "id": "q5-upsettennis",
-          "answer": ","
+          "id": "q5-upsetcovid",
+          "answer": 2
         },
         {
-          "id": "q6-upsettennis",
-          "answer": ","
+          "id": "q6-upsetcovid",
+          "answer": "Yes"
         },
         {
-          "id": "q7-upsettennis",
-          "answer": ","
+          "id": "q7-upsetcovid",
+          "answer": "Yes"
         },
         {
-          "id": "q8-upsettennis",
-          "answer": ","
+          "id": "q8-upsetcovid",
+          "answer": 148
         },
         {
-          "id": "q9-upsettennis",
-          "answer": ","
+          "id": "q9-upsetcovid",
+          "answer": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
         },
         {
-          "id": "q10-upsettennis",
-          "answer": ","
+          "id": "q10-upsetcovid",
+          "answer": "Yes"
         },
         {
-          "id": "q11-upsettennis",
-          "answer": ","
+          "id": "q11-upsetcovid",
+          "answer": "Yes"
         },
         {
-          "id": "q12-upsettennis",
-          "answer": ","
+          "id": "q12-upsetcovid",
+          "answer": "Yes"
         }
       ]
     },
@@ -1286,14 +1292,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-metrocovid",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-metrocovid",
           "prompt": "Which symptom is reported by the most patients in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1308,7 +1314,7 @@
           ]
         },
         {
-          "id": "q3-task",
+          "id": "q3-metrocovid",
           "prompt": "Which symptom is reported by the fewest patients?",
           "required": true,
           "location": "sidebar",
@@ -1323,21 +1329,21 @@
           ]
         },
         {
-          "id": "q4-task",
+          "id": "q4-metrocovid",
           "prompt": "How many patients belong to the most common combination of symptoms?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-metrocovid",
           "prompt": "How many symptoms make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-metrocovid",
           "prompt": "Do any patients have both Fever and Cough?",
           "required": true,
           "location": "sidebar",
@@ -1345,7 +1351,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-metrocovid",
           "prompt": "Do any patients have both Fever and Anosmia",
           "required": true,
           "location": "sidebar",
@@ -1353,14 +1359,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-metrocovid",
           "prompt": "How many patients have Shortness of breath?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-metrocovid",
           "prompt": "Which symptoms does Fever overlap with?",
           "required": true,
           "location": "sidebar",
@@ -1374,7 +1380,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-metrocovid",
           "prompt": "Do any patients have both Cough and Fatigue?",
           "required": true,
           "location": "sidebar",
@@ -1382,7 +1388,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-metrocovid",
           "prompt": "Do any patients have both Anosmia and Cough?",
           "required": true,
           "location": "sidebar",
@@ -1390,12 +1396,68 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-metrocovid",
           "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-metrocovid",
+          "answer": 6
+        },
+        {
+          "id": "q2-metrocovid",
+          "answer": "Fatigue"
+        },
+        {
+          "id": "q3-metrocovid",
+          "answer": "Shortness of breath"
+        },
+        {
+          "id": "q4-metrocovid",
+          "answer": 281
+        },
+        {
+          "id": "q5-metrocovid",
+          "answer": 2
+        },
+        {
+          "id": "q6-metrocovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-metrocovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-metrocovid",
+          "answer": 148
+        },
+        {
+          "id": "q9-metrocovid",
+          "answer": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q10-metrocovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-metrocovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-metrocovid",
+          "answer": "Yes"
         }
       ]
     },
@@ -1897,14 +1959,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-hoopscovid",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-hoopscovid",
           "prompt": "Which symptom is reported by the most patients in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1919,7 +1981,7 @@
           ]
         },
         {
-          "id": "q3-task",
+          "id": "q3-hoopscovid",
           "prompt": "Which symptom is reported by the fewest patients?",
           "required": true,
           "location": "sidebar",
@@ -1934,21 +1996,21 @@
           ]
         },
         {
-          "id": "q4-task",
+          "id": "q4-hoopscovid",
           "prompt": "How many patients belong to the most common combination of symptoms?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-hoopscovid",
           "prompt": "How many symptoms make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-hoopscovid",
           "prompt": "Do any patients have both Fever and Cough?",
           "required": true,
           "location": "sidebar",
@@ -1956,7 +2018,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-hoopscovid",
           "prompt": "Do any patients have both Fever and Anosmia",
           "required": true,
           "location": "sidebar",
@@ -1964,14 +2026,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-hoopscovid",
           "prompt": "How many patients have Shortness of breath?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-hoopscovid",
           "prompt": "Which symptoms does Fever overlap with?",
           "required": true,
           "location": "sidebar",
@@ -1985,7 +2047,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-hoopscovid",
           "prompt": "Do any patients have both Cough and Fatigue?",
           "required": true,
           "location": "sidebar",
@@ -1993,7 +2055,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-hoopscovid",
           "prompt": "Do any patients have both Anosmia and Cough?",
           "required": true,
           "location": "sidebar",
@@ -2001,12 +2063,68 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-hoopscovid",
           "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-hoopscovid",
+          "answer": 6
+        },
+        {
+          "id": "q2-hoopscovid",
+          "answer": "Fatigue"
+        },
+        {
+          "id": "q3-hoopscovid",
+          "answer": "Shortness of breath"
+        },
+        {
+          "id": "q4-hoopscovid",
+          "answer": 281
+        },
+        {
+          "id": "q5-hoopscovid",
+          "answer": 2
+        },
+        {
+          "id": "q6-hoopscovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-hoopscovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-hoopscovid",
+          "answer": 148
+        },
+        {
+          "id": "q9-hoopscovid",
+          "answer": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q10-hoopscovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-hoopscovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-hoopscovid",
+          "answer": "Yes"
         }
       ]
     },
@@ -2508,14 +2626,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-venncovid",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-venncovid",
           "prompt": "Which symptom is reported by the most patients in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -2530,7 +2648,7 @@
           ]
         },
         {
-          "id": "q3-task",
+          "id": "q3-venncovid",
           "prompt": "Which symptom is reported by the fewest patients?",
           "required": true,
           "location": "sidebar",
@@ -2545,21 +2663,21 @@
           ]
         },
         {
-          "id": "q4-task",
+          "id": "q4-venncovid",
           "prompt": "How many patients belong to the most common combination of symptoms?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-venncovid",
           "prompt": "How many symptoms make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-venncovid",
           "prompt": "Do any patients have both Fever and Cough?",
           "required": true,
           "location": "sidebar",
@@ -2567,7 +2685,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-venncovid",
           "prompt": "Do any patients have both Fever and Anosmia",
           "required": true,
           "location": "sidebar",
@@ -2575,14 +2693,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-venncovid",
           "prompt": "How many patients have Shortness of breath?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-venncovid",
           "prompt": "Which symptoms does Fever overlap with?",
           "required": true,
           "location": "sidebar",
@@ -2596,7 +2714,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-venncovid",
           "prompt": "Do any patients have both Cough and Fatigue?",
           "required": true,
           "location": "sidebar",
@@ -2604,7 +2722,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-venncovid",
           "prompt": "Do any patients have both Anosmia and Cough?",
           "required": true,
           "location": "sidebar",
@@ -2612,12 +2730,68 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-venncovid",
           "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-venncovid",
+          "answer": 6
+        },
+        {
+          "id": "q2-venncovid",
+          "answer": "Fatigue"
+        },
+        {
+          "id": "q3-venncovid",
+          "answer": "Shortness of breath"
+        },
+        {
+          "id": "q4-venncovid",
+          "answer": 281
+        },
+        {
+          "id": "q5-venncovid",
+          "answer": 2
+        },
+        {
+          "id": "q6-venncovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-venncovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-venncovid",
+          "answer": 148
+        },
+        {
+          "id": "q9-venncovid",
+          "answer": [
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q10-venncovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-venncovid",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-venncovid",
+          "answer": "Yes"
         }
       ]
     }
