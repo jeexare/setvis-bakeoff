@@ -15,7 +15,7 @@
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "withSidebar": true,
-    "stylesheetPath": "basic-pilot/assets/layout.css"
+    "stylesheetPath": "basic-pilot/assets/layout.css",
   },
   "importedLibraries": ["mini-vlat", "nasa-tlx"],
   "components": {
@@ -33,7 +33,7 @@
       "type": "questionnaire",
       "response": [
         {
-          "id": "gender",
+          "id": "experience",
           "type": "radio",
           "prompt": "How would you rate your experience interpreting data visualizations (such as charts, graphs, or diagrams)?",
           "required": true,
@@ -136,21 +136,21 @@
       },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-upsettennis",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-upsettennis",
           "prompt": "How many players have won both the French Open and the Australian Open?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q3-task",
+          "id": "q3-upsettennis",
           "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -158,14 +158,14 @@
           "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-upsettennis",
           "prompt": "How many players belong to the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-upsettennis",
           "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
           "required": true,
           "location": "sidebar",
@@ -173,7 +173,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q6-task",
+          "id": "q6-upsettennis",
           "prompt": "The largest intersection has 13 players, which sets do they belong to?",
           "required": true,
           "location": "sidebar",
@@ -188,7 +188,7 @@
           ]
         },
         {
-          "id": "q7-task",
+          "id": "q7-upsettennis",
           "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "id": "q8-task",
+          "id": "q8-upsettennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -210,20 +210,20 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q9-task",
+          "id": "q9-upsettennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-task",
+          "id": "q10-upsettennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -231,7 +231,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-upsettennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -239,18 +239,68 @@
           "options": [
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q12-task",
+          "id": "q12-upsettennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-upsettennis",
+          "answer": 6
+        },
+        {
+          "id": "q2-upsettennis",
+          "answer": 22
+        },
+        {
+          "id": "q3-upsettennis",
+          "answer": "Australian Open"
+        },
+        {
+          "id": "q4-upsettennis",
+          "answer": 13
+        },
+        {
+          "id": "q5-upsettennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q6-upsettennis",
+          "answer": ["French Open","Mens"]
+        },
+        {
+          "id": "q7-upsettennis",
+          "answer": "Mens & French Open"
+        },
+        {
+          "id": "q8-upsettennis",
+          "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
+        },
+        {
+          "id": "q9-upsettennis",
+          "answer": 2
+        },
+        {
+          "id": "q10-upsettennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-upsettennis",
+          "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
+        },
+        {
+          "id": "q12-upsettennis",
+          "answer": "No"
         }
       ]
     },
@@ -261,14 +311,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-upsetorgs",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-upsetorgs",
           "prompt": "Which organization has the most member countries in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -276,7 +326,7 @@
           "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-upsetorgs",
           "prompt": "Which organization has the fewest member countries?",
           "required": true,
           "location": "sidebar",
@@ -284,21 +334,21 @@
           "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-upsetorgs",
           "prompt": "How many countries belong to the most common combination of organizations?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-upsetorgs",
           "prompt": "How many organizations make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-upsetorgs",
           "prompt": "Do any countries belong to both APEC and NATO?",
           "required": true,
           "location": "sidebar",
@@ -306,7 +356,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-upsetorgs",
           "prompt": "Do any countries belong to both G-77 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -314,14 +364,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-upsetorgs",
           "prompt": "How many countries are members of CERN?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-upsetorgs",
           "prompt": "Which organizations does CERN overlap with?",
           "required": true,
           "location": "sidebar",
@@ -330,6 +380,7 @@
             "ADB",
             "APEC",
             "BSEC",
+            "CICA",
             "G-5",
             "G-77",
             "ICC",
@@ -346,7 +397,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-upsetorgs",
           "prompt": "Do any countries belong to both G-5 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -354,7 +405,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-upsetorgs",
           "prompt": "Do any countries belong to both SAARC and ADB?",
           "required": true,
           "location": "sidebar",
@@ -362,12 +413,62 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-upsetorgs",
           "prompt": "Are there any countries that do not belong to any organization in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-upsetorgs",
+          "answer": 18
+        },
+        {
+          "id": "q2-upsetorgs",
+          "answer": "WHO"
+        },
+        {
+          "id": "q3-upsetorgs",
+          "answer": "G-5"
+        },
+        {
+          "id": "q4-upsetorgs",
+          "answer": 5
+        },
+        {
+          "id": "q5-upsetorgs",
+          "answer": 11
+        },
+        {
+          "id": "q6-upsetorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-upsetorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-upsetorgs",
+          "answer": 26
+        },
+        {
+          "id": "q9-upsetorgs",
+          "answer": ["ADB", "APEC", "BSEC", "CICA", "G-5", "G-77", "ICC", "Interpol", "NATO", "SAARC", "SICA", "UN", "UNESCO", "UPU", "WHO", "WTO", "ZC"]
+        },
+        {
+          "id": "q10-upsetorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-upsetorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-upsetorgs",
+          "answer": "No"
         }
       ]
     },
@@ -464,6 +565,56 @@
           "required": true,
           "location": "sidebar",
           "type": "numerical"
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q2-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q3-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q4-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q5-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q6-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q7-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q8-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q9-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q10-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q11-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q12-upsettennis",
+          "answer": ","
         }
       ]
     },
@@ -585,6 +736,56 @@
           "type": "radio",
           "options": ["Yes", "No"]
         }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q2-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q3-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q4-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q5-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q6-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q7-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q8-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q9-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q10-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q11-upsettennis",
+          "answer": ","
+        },
+        {
+          "id": "q12-upsettennis",
+          "answer": ","
+        }
       ]
     },
     "metroset-tennis": {
@@ -597,21 +798,21 @@
       },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-metrotennis",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-metrotennis",
           "prompt": "How many players have won both the French Open and the Australian Open?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q3-task",
+          "id": "q3-metrotennis",
           "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -619,14 +820,14 @@
           "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-metrotennis",
           "prompt": "How many players belong to the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-metrotennis",
           "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
           "required": true,
           "location": "sidebar",
@@ -634,7 +835,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q6-task",
+          "id": "q6-metrotennis",
           "prompt": "The largest intersection has 13 players, which sets do they belong to?",
           "required": true,
           "location": "sidebar",
@@ -643,13 +844,13 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q7-task",
+          "id": "q7-metrotennis",
           "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
@@ -662,7 +863,7 @@
           ]
         },
         {
-          "id": "q8-task",
+          "id": "q8-metrotennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -671,20 +872,20 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q9-task",
+          "id": "q9-metrotennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-task",
+          "id": "q10-metrotennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -692,7 +893,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-metrotennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -700,18 +901,67 @@
           "options": [
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q12-task",
+          "id": "q12-metrotennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],"correctAnswer": [
+        {
+          "id": "q1-metrotennis",
+          "answer": 6
+        },
+        {
+          "id": "q2-metrotennis",
+          "answer": 22
+        },
+        {
+          "id": "q3-metrotennis",
+          "answer": "Australian Open"
+        },
+        {
+          "id": "q4-metrotennis",
+          "answer": 13
+        },
+        {
+          "id": "q5-metrotennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q6-metrotennis",
+          "answer": ["French Open","Mens"]
+        },
+        {
+          "id": "q7-metrotennis",
+          "answer": "Mens & French Open"
+        },
+        {
+          "id": "q8-metrotennis",
+          "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
+        },
+        {
+          "id": "q9-metrotennis",
+          "answer": 2
+        },
+        {
+          "id": "q10-metrotennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-metrotennis",
+          "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
+        },
+        {
+          "id": "q12-metrotennis",
+          "answer": "No"
         }
       ]
     },
@@ -722,14 +972,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-metroorgs",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-metroorgs",
           "prompt": "Which organization has the most member countries in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -737,7 +987,7 @@
           "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-metroorgs",
           "prompt": "Which organization has the fewest member countries?",
           "required": true,
           "location": "sidebar",
@@ -745,21 +995,21 @@
           "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-metroorgs",
           "prompt": "How many countries belong to the most common combination of organizations?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-metroorgs",
           "prompt": "How many organizations make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-metroorgs",
           "prompt": "Do any countries belong to both APEC and NATO?",
           "required": true,
           "location": "sidebar",
@@ -767,7 +1017,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-metroorgs",
           "prompt": "Do any countries belong to both G-77 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -775,14 +1025,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-metroorgs",
           "prompt": "How many countries are members of CERN?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-metroorgs",
           "prompt": "Which organizations does CERN overlap with?",
           "required": true,
           "location": "sidebar",
@@ -791,6 +1041,7 @@
             "ADB",
             "APEC",
             "BSEC",
+            "CICA",
             "G-5",
             "G-77",
             "ICC",
@@ -807,7 +1058,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-metroorgs",
           "prompt": "Do any countries belong to both G-5 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -815,7 +1066,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-metroorgs",
           "prompt": "Do any countries belong to both SAARC and ADB?",
           "required": true,
           "location": "sidebar",
@@ -823,12 +1074,62 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-metroorgs",
           "prompt": "Are there any countries that do not belong to any organization in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-metroorgs",
+          "answer": 18
+        },
+        {
+          "id": "q2-metroorgs",
+          "answer": "WHO"
+        },
+        {
+          "id": "q3-metroorgs",
+          "answer": "G-5"
+        },
+        {
+          "id": "q4-metroorgs",
+          "answer": 5
+        },
+        {
+          "id": "q5-metroorgs",
+          "answer": 11
+        },
+        {
+          "id": "q6-metroorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-metroorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-metroorgs",
+          "answer": 26
+        },
+        {
+          "id": "q9-metroorgs",
+          "answer": ["ADB", "APEC", "BSEC", "CICA", "G-5", "G-77", "ICC", "Interpol", "NATO", "SAARC", "SICA", "UN", "UNESCO", "UPU", "WHO", "WTO", "ZC"]
+        },
+        {
+          "id": "q10-metroorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-metroorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-metroorgs",
+          "answer": "No"
         }
       ]
     },
@@ -1058,21 +1359,21 @@
       },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-hoopstennis",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-hoopstennis",
           "prompt": "How many players have won both the French Open and the Australian Open?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q3-task",
+          "id": "q3-hoopstennis",
           "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1080,14 +1381,14 @@
           "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-hoopstennis",
           "prompt": "How many players belong to the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-hoopstennis",
           "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
           "required": true,
           "location": "sidebar",
@@ -1095,7 +1396,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q6-task",
+          "id": "q6-hoopstennis",
           "prompt": "The largest intersection has 13 players, which sets do they belong to?",
           "required": true,
           "location": "sidebar",
@@ -1104,13 +1405,13 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q7-task",
+          "id": "q7-hoopstennis",
           "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
@@ -1123,7 +1424,7 @@
           ]
         },
         {
-          "id": "q8-task",
+          "id": "q8-hoopstennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -1132,20 +1433,20 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q9-task",
+          "id": "q9-hoopstennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-task",
+          "id": "q10-hoopstennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -1153,7 +1454,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-hoopstennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -1161,18 +1462,67 @@
           "options": [
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q12-task",
+          "id": "q12-hoopstennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],"correctAnswer": [
+        {
+          "id": "q1-hoopstennis",
+          "answer": 6
+        },
+        {
+          "id": "q2-hoopstennis",
+          "answer": 22
+        },
+        {
+          "id": "q3-hoopstennis",
+          "answer": "Australian Open"
+        },
+        {
+          "id": "q4-hoopstennis",
+          "answer": 13
+        },
+        {
+          "id": "q5-hoopstennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q6-hoopstennis",
+          "answer": ["French Open","Mens"]
+        },
+        {
+          "id": "q7-hoopstennis",
+          "answer": "Mens & French Open"
+        },
+        {
+          "id": "q8-hoopstennis",
+          "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
+        },
+        {
+          "id": "q9-hoopstennis",
+          "answer": 2
+        },
+        {
+          "id": "q10-hoopstennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-hoopstennis",
+          "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
+        },
+        {
+          "id": "q12-hoopstennis",
+          "answer": "No"
         }
       ]
     },
@@ -1183,14 +1533,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-hoopsorgs",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-hoopsorgs",
           "prompt": "Which organization has the most member countries in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1198,7 +1548,7 @@
           "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-hoopsorgs",
           "prompt": "Which organization has the fewest member countries?",
           "required": true,
           "location": "sidebar",
@@ -1206,21 +1556,21 @@
           "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-hoopsorgs",
           "prompt": "How many countries belong to the most common combination of organizations?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-hoopsorgs",
           "prompt": "How many organizations make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-hoopsorgs",
           "prompt": "Do any countries belong to both APEC and NATO?",
           "required": true,
           "location": "sidebar",
@@ -1228,7 +1578,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-hoopsorgs",
           "prompt": "Do any countries belong to both G-77 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -1236,14 +1586,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-hoopsorgs",
           "prompt": "How many countries are members of CERN?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-hoopsorgs",
           "prompt": "Which organizations does CERN overlap with?",
           "required": true,
           "location": "sidebar",
@@ -1252,6 +1602,7 @@
             "ADB",
             "APEC",
             "BSEC",
+            "CICA",
             "G-5",
             "G-77",
             "ICC",
@@ -1268,7 +1619,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-hoopsorgs",
           "prompt": "Do any countries belong to both G-5 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -1276,7 +1627,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-hoopsorgs",
           "prompt": "Do any countries belong to both SAARC and ADB?",
           "required": true,
           "location": "sidebar",
@@ -1284,12 +1635,62 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-hoopsorgs",
           "prompt": "Are there any countries that do not belong to any organization in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-hoopsorgs",
+          "answer": 18
+        },
+        {
+          "id": "q2-hoopsorgs",
+          "answer": "WHO"
+        },
+        {
+          "id": "q3-hoopsorgs",
+          "answer": "G-5"
+        },
+        {
+          "id": "q4-hoopsorgs",
+          "answer": 5
+        },
+        {
+          "id": "q5-hoopsorgs",
+          "answer": 11
+        },
+        {
+          "id": "q6-hoopsorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-hoopsorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-hoopsorgs",
+          "answer": 26
+        },
+        {
+          "id": "q9-hoopsorgs",
+          "answer": ["ADB", "APEC", "BSEC", "CICA", "G-5", "G-77", "ICC", "Interpol", "NATO", "SAARC", "SICA", "UN", "UNESCO", "UPU", "WHO", "WTO", "ZC"]
+        },
+        {
+          "id": "q10-hoopsorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-hoopsorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-hoopsorgs",
+          "answer": "No"
         }
       ]
     },
@@ -1519,21 +1920,21 @@
       },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-venntennis",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-venntennis",
           "prompt": "How many players have won both the French Open and the Australian Open?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q3-task",
+          "id": "q3-venntennis",
           "prompt": "Which Grand Slam tournament has the most winners in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1541,14 +1942,14 @@
           "options": ["Wimbledon", "US Open", "French Open", "Australian Open"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-venntennis",
           "prompt": "How many players belong to the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-venntennis",
           "prompt": "Do any players appear in both the Womens and Wimbledon sets?",
           "required": true,
           "location": "sidebar",
@@ -1556,7 +1957,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q6-task",
+          "id": "q6-venntennis",
           "prompt": "The largest intersection has 13 players, which sets do they belong to?",
           "required": true,
           "location": "sidebar",
@@ -1565,13 +1966,13 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q7-task",
+          "id": "q7-venntennis",
           "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
@@ -1584,7 +1985,7 @@
           ]
         },
         {
-          "id": "q8-task",
+          "id": "q8-venntennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -1593,20 +1994,20 @@
             "Wimbledon",
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q9-task",
+          "id": "q9-venntennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-task",
+          "id": "q10-venntennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -1614,7 +2015,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-venntennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -1622,18 +2023,67 @@
           "options": [
             "US Open",
             "French Open",
-            "Autralian Open",
+            "Australian Open",
             "Mens",
             "Womens"
           ]
         },
         {
-          "id": "q12-task",
+          "id": "q12-venntennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],"correctAnswer": [
+        {
+          "id": "q1-venntennis",
+          "answer": 6
+        },
+        {
+          "id": "q2-venntennis",
+          "answer": 22
+        },
+        {
+          "id": "q3-venntennis",
+          "answer": "Australian Open"
+        },
+        {
+          "id": "q4-venntennis",
+          "answer": 13
+        },
+        {
+          "id": "q5-venntennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q6-venntennis",
+          "answer": ["French Open","Mens"]
+        },
+        {
+          "id": "q7-venntennis",
+          "answer": "Mens & French Open"
+        },
+        {
+          "id": "q8-venntennis",
+          "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
+        },
+        {
+          "id": "q9-venntennis",
+          "answer": 2
+        },
+        {
+          "id": "q10-venntennis",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-venntennis",
+          "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
+        },
+        {
+          "id": "q12-venntennis",
+          "answer": "No"
         }
       ]
     },
@@ -1644,14 +2094,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-vennorgs",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-vennorgs",
           "prompt": "Which organization has the most member countries in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1659,7 +2109,7 @@
           "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-vennorgs",
           "prompt": "Which organization has the fewest member countries?",
           "required": true,
           "location": "sidebar",
@@ -1667,21 +2117,21 @@
           "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-vennorgs",
           "prompt": "How many countries belong to the most common combination of organizations?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-vennorgs",
           "prompt": "How many organizations make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-vennorgs",
           "prompt": "Do any countries belong to both APEC and NATO?",
           "required": true,
           "location": "sidebar",
@@ -1689,7 +2139,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-task",
+          "id": "q7-vennorgs",
           "prompt": "Do any countries belong to both G-77 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -1697,14 +2147,14 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q8-task",
+          "id": "q8-vennorgs",
           "prompt": "How many countries are members of CERN?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q9-task",
+          "id": "q9-vennorgs",
           "prompt": "Which organizations does CERN overlap with?",
           "required": true,
           "location": "sidebar",
@@ -1713,6 +2163,7 @@
             "ADB",
             "APEC",
             "BSEC",
+            "CICA",
             "G-5",
             "G-77",
             "ICC",
@@ -1729,7 +2180,7 @@
           ]
         },
         {
-          "id": "q10-task",
+          "id": "q10-vennorgs",
           "prompt": "Do any countries belong to both G-5 and NATO?",
           "required": true,
           "location": "sidebar",
@@ -1737,7 +2188,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-vennorgs",
           "prompt": "Do any countries belong to both SAARC and ADB?",
           "required": true,
           "location": "sidebar",
@@ -1745,12 +2196,62 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q12-task",
+          "id": "q12-vennorgs",
           "prompt": "Are there any countries that do not belong to any organization in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
           "options": ["Yes", "No"]
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-vennorgs",
+          "answer": 18
+        },
+        {
+          "id": "q2-vennorgs",
+          "answer": "WHO"
+        },
+        {
+          "id": "q3-vennorgs",
+          "answer": "G-5"
+        },
+        {
+          "id": "q4-vennorgs",
+          "answer": 5
+        },
+        {
+          "id": "q5-vennorgs",
+          "answer": 11
+        },
+        {
+          "id": "q6-vennorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q7-vennorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q8-vennorgs",
+          "answer": 26
+        },
+        {
+          "id": "q9-vennorgs",
+          "answer": ["ADB", "APEC", "BSEC", "CICA", "G-5", "G-77", "ICC", "Interpol", "NATO", "SAARC", "SICA", "UN", "UNESCO", "UPU", "WHO", "WTO", "ZC"]
+        },
+        {
+          "id": "q10-vennorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q11-vennorgs",
+          "answer": "Yes"
+        },
+        {
+          "id": "q12-vennorgs",
+          "answer": "No"
         }
       ]
     },
