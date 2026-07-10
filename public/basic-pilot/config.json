@@ -479,14 +479,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-upsetmovies",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-upsetmovies",
           "prompt": "Which genre has the most movies in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -494,7 +494,7 @@
           "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-upsetmovies",
           "prompt": "Which genre has the fewest movies?",
           "required": true,
           "location": "sidebar",
@@ -502,35 +502,35 @@
           "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-upsetmovies",
           "prompt": "How many movies belong to the most common single-genre combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-upsetmovies",
           "prompt": "How many genres make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-upsetmovies",
           "prompt": "How many movies belong to both Drama and Comedy?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q7-task",
+          "id": "q7-upsetmovies",
           "prompt": "How many movies belong to both Drama and Romance?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q8-task",
+          "id": "q8-upsetmovies",
           "prompt": "Do any movies belong to both Western and SciFi?",
           "required": true,
           "location": "sidebar",
@@ -538,29 +538,29 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q9-task",
+          "id": "q9-upsetmovies",
           "prompt": "How many movies belong to both Noir and Thriller?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-task",
-          "prompt": "Which genre overlaps with the most other genres?",
+          "id": "q10-upsetmovies",
+          "prompt": "Which genre(s) overlap(s) with the most other genres?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
+          "type": "checkbox",
           "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-upsetmovies",
           "prompt": "How many movies belong to both Action and Comedy?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q12-task",
+          "id": "q12-upsetmovies",
           "prompt": "How many movies belong to Horror only, with no other genres?",
           "required": true,
           "location": "sidebar",
@@ -569,52 +569,52 @@
       ],
        "correctAnswer": [
         {
-          "id": "q1-upsettennis",
-          "answer": ","
+          "id": "q1-upsetmovies",
+          "answer": 17
         },
         {
-          "id": "q2-upsettennis",
-          "answer": ","
+          "id": "q2-upsetmovies",
+          "answer": "Drama"
         },
         {
-          "id": "q3-upsettennis",
-          "answer": ","
+          "id": "q3-upsetmovies",
+          "answer": "Noir"
         },
         {
-          "id": "q4-upsettennis",
-          "answer": ","
+          "id": "q4-upsetmovies",
+          "answer": 843
         },
         {
-          "id": "q5-upsettennis",
-          "answer": ","
+          "id": "q5-upsetmovies",
+          "answer": 1
         },
         {
-          "id": "q6-upsettennis",
-          "answer": ","
+          "id": "q6-upsetmovies",
+          "answer": 226
         },
         {
-          "id": "q7-upsettennis",
-          "answer": ","
+          "id": "q7-upsetmovies",
+          "answer": 204
         },
         {
-          "id": "q8-upsettennis",
-          "answer": ","
+          "id": "q8-upsetmovies",
+          "answer": "Yes"
         },
         {
-          "id": "q9-upsettennis",
-          "answer": ","
+          "id": "q9-upsetmovies",
+          "answer": 20
         },
         {
-          "id": "q10-upsettennis",
-          "answer": ","
+          "id": "q10-upsetmovies",
+          "answer": ["Drama", "Comedy"]
         },
         {
-          "id": "q11-upsettennis",
-          "answer": ","
+          "id": "q11-upsetmovies",
+          "answer": 65
         },
         {
-          "id": "q12-upsettennis",
-          "answer": ","
+          "id": "q12-upsetmovies",
+          "answer": 178
         }
       ]
     },
@@ -1207,10 +1207,10 @@
         },
         {
           "id": "q10-task",
-          "prompt": "Which genre overlaps with the most other genres?",
+          "prompt": "Which genre(s) overlap(s) with the most other genres?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
+          "type": "checkbox",
           "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
         },
         {
@@ -1226,6 +1226,56 @@
           "required": true,
           "location": "sidebar",
           "type": "numerical"
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-metromovies",
+          "answer": 17
+        },
+        {
+          "id": "q2-metromovies",
+          "answer": "Drama"
+        },
+        {
+          "id": "q3-metromovies",
+          "answer": "Noir"
+        },
+        {
+          "id": "q4-metromovies",
+          "answer": 843
+        },
+        {
+          "id": "q5-metromovies",
+          "answer": 1
+        },
+        {
+          "id": "q6-metromovies",
+          "answer": 226
+        },
+        {
+          "id": "q7-metromovies",
+          "answer": 204
+        },
+        {
+          "id": "q8-metromovies",
+          "answer": "Yes"
+        },
+        {
+          "id": "q9-metromovies",
+          "answer": 20
+        },
+        {
+          "id": "q10-metromovies",
+          "answer": ["Drama", "Comedy"]
+        },
+        {
+          "id": "q11-metromovies",
+          "answer": 65
+        },
+        {
+          "id": "q12-metromovies",
+          "answer": 178
         }
       ]
     },
@@ -1701,14 +1751,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-hoopsmovies",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-hoopsmovies",
           "prompt": "Which genre has the most movies in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -1716,7 +1766,7 @@
           "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-hoopsmovies",
           "prompt": "Which genre has the fewest movies?",
           "required": true,
           "location": "sidebar",
@@ -1724,35 +1774,35 @@
           "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-hoopsmovies",
           "prompt": "How many movies belong to the most common single-genre combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-hoopsmovies",
           "prompt": "How many genres make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-hoopsmovies",
           "prompt": "How many movies belong to both Drama and Comedy?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q7-task",
+          "id": "q7-hoopsmovies",
           "prompt": "How many movies belong to both Drama and Romance?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q8-task",
+          "id": "q8-hoopsmovies",
           "prompt": "Do any movies belong to both Western and SciFi?",
           "required": true,
           "location": "sidebar",
@@ -1760,33 +1810,83 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q9-task",
+          "id": "q9-hoopsmovies",
           "prompt": "How many movies belong to both Noir and Thriller?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-task",
-          "prompt": "Which genre overlaps with the most other genres?",
+          "id": "q10-hoopsmovies",
+          "prompt": "Which genre(s) overlap(s) with the most other genres?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
+          "type": "checkbox",
           "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-hoopsmovies",
           "prompt": "How many movies belong to both Action and Comedy?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q12-task",
+          "id": "q12-hoopsmovies",
           "prompt": "How many movies belong to Horror only, with no other genres?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-hoopsmovies",
+          "answer": 17
+        },
+        {
+          "id": "q2-hoopsmovies",
+          "answer": "Drama"
+        },
+        {
+          "id": "q3-hoopsmovies",
+          "answer": "Noir"
+        },
+        {
+          "id": "q4-hoopsmovies",
+          "answer": 843
+        },
+        {
+          "id": "q5-hoopsmovies",
+          "answer": 1
+        },
+        {
+          "id": "q6-hoopsmovies",
+          "answer": 226
+        },
+        {
+          "id": "q7-hoopsmovies",
+          "answer": 204
+        },
+        {
+          "id": "q8-hoopsmovies",
+          "answer": "Yes"
+        },
+        {
+          "id": "q9-hoopsmovies",
+          "answer": 20
+        },
+        {
+          "id": "q10-hoopsmovies",
+          "answer": ["Drama", "Comedy"]
+        },
+        {
+          "id": "q11-hoopsmovies",
+          "answer": 65
+        },
+        {
+          "id": "q12-hoopsmovies",
+          "answer": 178
         }
       ]
     },
@@ -2262,14 +2362,14 @@
       "style": { "width": "1000px", "margin": "0 auto" },
       "response": [
         {
-          "id": "q1-task",
+          "id": "q1-vennmovies",
           "prompt": "How many sets are represented in this dataset?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q2-task",
+          "id": "q2-vennmovies",
           "prompt": "Which genre has the most movies in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -2277,7 +2377,7 @@
           "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
         },
         {
-          "id": "q3-task",
+          "id": "q3-vennmovies",
           "prompt": "Which genre has the fewest movies?",
           "required": true,
           "location": "sidebar",
@@ -2285,35 +2385,35 @@
           "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
         },
         {
-          "id": "q4-task",
+          "id": "q4-vennmovies",
           "prompt": "How many movies belong to the most common single-genre combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q5-task",
+          "id": "q5-vennmovies",
           "prompt": "How many genres make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q6-task",
+          "id": "q6-vennmovies",
           "prompt": "How many movies belong to both Drama and Comedy?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q7-task",
+          "id": "q7-vennmovies",
           "prompt": "How many movies belong to both Drama and Romance?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q8-task",
+          "id": "q8-vennmovies",
           "prompt": "Do any movies belong to both Western and SciFi?",
           "required": true,
           "location": "sidebar",
@@ -2321,7 +2421,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q9-task",
+          "id": "q9-vennmovies",
           "prompt": "How many movies belong to both Noir and Thriller?",
           "required": true,
           "location": "sidebar",
@@ -2329,25 +2429,75 @@
         },
         {
           "id": "q10-task",
-          "prompt": "Which genre overlaps with the most other genres?",
+          "prompt": "Which genre(s) overlap(s) with the most other genres?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
+          "type": "checkbox",
           "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
         },
         {
-          "id": "q11-task",
+          "id": "q11-vennmovies",
           "prompt": "How many movies belong to both Action and Comedy?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q12-task",
+          "id": "q12-vennmovies",
           "prompt": "How many movies belong to Horror only, with no other genres?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
+        }
+      ],
+       "correctAnswer": [
+        {
+          "id": "q1-vennmovies",
+          "answer": 17
+        },
+        {
+          "id": "q2-vennmovies",
+          "answer": "Drama"
+        },
+        {
+          "id": "q3-vennmovies",
+          "answer": "Noir"
+        },
+        {
+          "id": "q4-vennmovies",
+          "answer": 843
+        },
+        {
+          "id": "q5-vennmovies",
+          "answer": 1
+        },
+        {
+          "id": "q6-vennmovies",
+          "answer": 226
+        },
+        {
+          "id": "q7-vennmovies",
+          "answer": 204
+        },
+        {
+          "id": "q8-vennmovies",
+          "answer": "Yes"
+        },
+        {
+          "id": "q9-vennmovies",
+          "answer": 20
+        },
+        {
+          "id": "q10-vennmovies",
+          "answer": ["Drama", "Comedy"]
+        },
+        {
+          "id": "q11-vennmovies",
+          "answer": 65
+        },
+        {
+          "id": "q12-vennmovies",
+          "answer": 178
         }
       ]
     },
