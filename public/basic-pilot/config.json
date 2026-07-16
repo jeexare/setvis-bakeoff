@@ -15,9 +15,9 @@
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "withSidebar": true,
-    "stylesheetPath": "basic-pilot/assets/layout.css",
+    "stylesheetPath": "basic-pilot/assets/layout.css"
   },
-  "importedLibraries": ["mini-vlat", "nasa-tlx"],
+  "importedLibraries": ["mini-vlat", "nasa-tlx", "mic-check"],
   "components": {
     "consent": {
       "type": "markdown",
@@ -134,6 +134,7 @@
         "width": "1000px",
         "margin": "0 auto"
       },
+      "recordAudio": true,
       "response": [
         {
           "id": "q1-upsettennis",
@@ -309,6 +310,7 @@
       "path": "https://embed.figma.com/proto/fOSU9EU9lljmz3BDHTEsSL/UpSet-Orgs?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
         {
           "id": "q1-upsetorgs",
@@ -553,6 +555,7 @@
       "path": "https://embed.figma.com/proto/rCFSCHXYOnK5cwMMdH09Ab/UpSet-Movies?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
         {
           "id": "q1-upsetmovies",
@@ -703,6 +706,7 @@
       "path": "https://embed.figma.com/proto/9BDp5d6KvkzR9qltmRGKvg/UpSet-Covid?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
         {
           "id": "q1-upsetcovid",
@@ -890,6 +894,7 @@
         "width": "1000px",
         "margin": "0 auto"
       },
+      "recordAudio": true,
       "response": [
         {
           "id": "q1-metrotennis",
@@ -1064,6 +1069,7 @@
       "path": "https://embed.figma.com/proto/TKkfmKwQcp4hBrb6rg9qvu/MetroSet-Orgs?node-id=4007-1064&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-metroorgs",
@@ -1375,6 +1381,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-metromovies",
@@ -1626,6 +1633,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-metrocovid",
@@ -2016,6 +2024,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
      "response": [
       {
         "id": "q1-hoopsorgs",
@@ -2327,6 +2336,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-hoopsmovies",
@@ -2578,6 +2588,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-hoopscovid",
@@ -2968,6 +2979,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-vennorgs",
@@ -3279,6 +3291,7 @@
       "path": "https://embed.figma.com/proto/rB4gLVNV3IxkYT57dh8Jkf/UpSet-Tennis?node-id=105-7098&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
        "response": [
       {
         "id": "q1-vennmovies",
@@ -3530,6 +3543,7 @@
       "path": "https://embed.figma.com/proto/5ELyr99edMsuokLSJwNcNk/SuperVenn-Covid?node-id=2018-286&&content-scaling=responsive&scaling=min-zoom&hotspot-hints=0&hide-ui=1&embed-host=share",
       "nextButtonLocation": "sidebar",
       "style": { "width": "1000px", "margin": "0 auto" },
+      "recordAudio": true,
       "response": [
       {
         "id": "q1-venncovid",
@@ -3747,6 +3761,7 @@
       "$mini-vlat.sequences.full",
       "tutorial",
       "studystart",
+      "$mic-check.components.audioTest",
       {
         "order": "latinSquare",
         "components": [

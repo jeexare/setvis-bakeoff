@@ -1,9 +1,10 @@
 ## Interacting with the visualizations
 Different visualizations may support different interactions. Depending on the visualization, you may be able to:
 
-- **Click** objects to select or highlight them.
+- **Hover** over a bar, line, arc, or shape to highlight it and reveal which elements belong to it.
+- **Click** an element to select or pin a highlight in place.
 - **Drag** to move or reposition the view.
-- **Scroll** to expand.
+- **Scroll**.
 - **Hover** over elements to reveal additional information.
 - Press the **spacebar** to highlight an intersection.
 
