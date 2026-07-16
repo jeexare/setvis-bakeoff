@@ -202,7 +202,7 @@
         },
         {
           "id": "q8-upsettennis",
-          "prompt": "Which sets overlap with the most other sets?",
+          "prompt": "Which set(s) overlap(s) with the most other sets?",
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
@@ -319,19 +319,37 @@
         },
         {
           "id": "q2-upsetorgs",
-          "prompt": "Which organization has the most member countries in this dataset?",
+          "prompt": "How many countries belong to both SAARC and ADB?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
-          "options": ["UN", "UNESCO", "UPU", "WHO", "Interpol"]
+          "type": "numerical"
         },
         {
           "id": "q3-upsetorgs",
-          "prompt": "Which organization has the fewest member countries?",
+          "prompt": "Which organization has the most member countries?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": ["G-5", "SICA", "APEC", "SAARC", "CERN"]
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "CICA",
+            "CERN",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
         },
         {
           "id": "q4-upsetorgs",
@@ -342,10 +360,30 @@
         },
         {
           "id": "q5-upsetorgs",
-          "prompt": "How many organizations make up the most common combination?",
+          "prompt": "The largest intersection with the greatest number of organizations involved has 5 countries, which organizations belong to it?",
           "required": true,
           "location": "sidebar",
-          "type": "numerical"
+          "type": "radio",
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "CICA",
+            "CERN",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
         },
         {
           "id": "q6-upsetorgs",
@@ -357,7 +395,7 @@
         },
         {
           "id": "q7-upsetorgs",
-          "prompt": "Do any countries belong to both G-77 and NATO?",
+          "prompt": "Is WTO part of the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
@@ -365,10 +403,30 @@
         },
         {
           "id": "q8-upsetorgs",
-          "prompt": "How many countries are members of CERN?",
+          "prompt": "Which organization(s) overlap(s) with the most others?",
           "required": true,
           "location": "sidebar",
-          "type": "numerical"
+          "type": "radio",
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "CICA",
+            "CERN",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
         },
         {
           "id": "q9-upsetorgs",
@@ -398,19 +456,37 @@
         },
         {
           "id": "q10-upsetorgs",
-          "prompt": "Do any countries belong to both G-5 and NATO?",
+          "prompt": "How many organizations make up the most common combination?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
-          "options": ["Yes", "No"]
+          "type": "numerical"
         },
         {
           "id": "q11-upsetorgs",
-          "prompt": "Do any countries belong to both SAARC and ADB?",
+          "prompt": "Among combinations tied for the largest intersection, which one involves the fewest organizations, and what are they?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": ["Yes", "No"]
+          "options": [
+            "ADB",
+            "APEC",
+            "BSEC",
+            "CICA",
+            "CERN",
+            "G-5",
+            "G-77",
+            "ICC",
+            "Interpol",
+            "NATO",
+            "SAARC",
+            "SICA",
+            "UN",
+            "UNESCO",
+            "UPU",
+            "WHO",
+            "WTO",
+            "ZC"
+          ]
         },
         {
           "id": "q12-upsetorgs",
@@ -428,11 +504,11 @@
         },
         {
           "id": "q2-upsetorgs",
-          "answer": "WHO"
+          "answer": 12
         },
         {
           "id": "q3-upsetorgs",
-          "answer": "G-5"
+          "answer": "WTO"
         },
         {
           "id": "q4-upsetorgs",
@@ -440,7 +516,7 @@
         },
         {
           "id": "q5-upsetorgs",
-          "answer": 11
+          "answer": ["ADB", "CERN", "ICC", "Interpol", "NATO", "UN", "UNESCO", "UPU", "WHO", "WTO", "ZC"]
         },
         {
           "id": "q6-upsetorgs",
@@ -452,7 +528,7 @@
         },
         {
           "id": "q8-upsetorgs",
-          "answer": 26
+          "answer": ["ADB", "APEC", "BSEC", "CICA", "CERN", "G-5", "G-77", "ICC", "Interpol", "NATO", "SAARC", "SICA", "UN", "UNESCO", "UPU", "WHO", "WTO", "ZC"]
         },
         {
           "id": "q9-upsetorgs",
@@ -460,11 +536,11 @@
         },
         {
           "id": "q10-upsetorgs",
-          "answer": "Yes"
+          "answer": 11
         },
         {
           "id": "q11-upsetorgs",
-          "answer": "Yes"
+          "answer": ["ICC", "Interpol", "NATO", "UN", "UNESCO", "UPU", "WHO", "WTO"]
         },
         {
           "id": "q12-upsetorgs",
@@ -480,26 +556,25 @@
       "response": [
         {
           "id": "q1-upsetmovies",
-          "prompt": "How many sets are represented in this dataset?",
+          "prompt": "How many sets are there?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
           "id": "q2-upsetmovies",
-          "prompt": "Which genre has the most movies in this dataset?",
+          "prompt": "How many movies belong to both Drama and Comedy?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
-          "options": ["Drama", "Comedy", "Action", "Thriller", "Romance"]
+          "type": "numerical"
         },
         {
           "id": "q3-upsetmovies",
-          "prompt": "Which genre has the fewest movies?",
+          "prompt": "Which genre has the most movies?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
-          "options": ["Noir", "Fantasy", "Western", "Musical", "Documentary"]
+          "options": ["Noir", "Comedy", "Drama", "Fantasy", "Western", "Musical", "Documentary"]
         },
         {
           "id": "q4-upsetmovies",
@@ -510,61 +585,66 @@
         },
         {
           "id": "q5-upsetmovies",
-          "prompt": "How many genres make up the most common combination?",
-          "required": true,
-          "location": "sidebar",
-          "type": "numerical"
-        },
-        {
-          "id": "q6-upsetmovies",
-          "prompt": "How many movies belong to both Drama and Comedy?",
-          "required": true,
-          "location": "sidebar",
-          "type": "numerical"
-        },
-        {
-          "id": "q7-upsetmovies",
-          "prompt": "How many movies belong to both Drama and Romance?",
-          "required": true,
-          "location": "sidebar",
-          "type": "numerical"
-        },
-        {
-          "id": "q8-upsetmovies",
           "prompt": "Do any movies belong to both Western and SciFi?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
+           "type": "radio",
           "options": ["Yes", "No"]
         },
         {
+          "id": "q6-upsetmovies",
+          "prompt": "Which genre has the fewest movies belonging to it exclusively?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Action", "Adventure", "Children", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "Noir", "Horror", "Musical", "Mystery", "Romance", "SciFi", "Thriller", "War", "Western"]
+        },
+        {
+          "id": "q7-upsetmovies",
+          "prompt": "What is the second most common genre combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "radio",
+          "options": ["Action", "Adventure", "Children", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "Noir", "Horror", "Musical", "Mystery", "Romance", "SciFi", "Thriller", "War", "Western"]
+        },
+        {
+          "id": "q8-upsetmovies",
+          "prompt": "Which genre(s) overlap(s) with the most other genres?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": ["Action", "Adventure", "Children", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "Noir", "Horror", "Musical", "Mystery", "Romance", "SciFi", "Thriller", "War", "Western"]
+        },
+        {
           "id": "q9-upsetmovies",
-          "prompt": "How many movies belong to both Noir and Thriller?",
+          "prompt": "How many genres make up the most common intersection of genres?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
           "id": "q10-upsetmovies",
-          "prompt": "Which genre(s) overlap(s) with the most other genres?",
+          "prompt": "Is Drama part of the largest intersection?",
           "required": true,
           "location": "sidebar",
-          "type": "checkbox",
-          "options": ["Drama", "Comedy", "Adventure", "Romance", "SciFi"]
+          "type": "radio",
+          "options": ["Yes", "No"]
         },
         {
           "id": "q11-upsetmovies",
-          "prompt": "How many movies belong to both Action and Comedy?",
+          "prompt": "Which genres does Noir overlap with?",
           "required": true,
           "location": "sidebar",
-          "type": "numerical"
+          "type": "checkbox",
+          "options": ["Action", "Adventure", "Children", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "Noir", "Horror", "Musical", "Mystery", "Romance", "SciFi", "Thriller", "War", "Western"]
         },
         {
           "id": "q12-upsetmovies",
-          "prompt": "How many movies belong to Horror only, with no other genres?",
+          "prompt": "Is there a movie tagged with all 17 genres?",
           "required": true,
           "location": "sidebar",
-          "type": "numerical"
+          "type": "radio",
+          "options": ["Yes", "No"]
         }
       ],
        "correctAnswer": [
@@ -574,11 +654,11 @@
         },
         {
           "id": "q2-upsetmovies",
-          "answer": "Drama"
+          "answer": 226
         },
         {
           "id": "q3-upsetmovies",
-          "answer": "Noir"
+          "answer": "Drama"
         },
         {
           "id": "q4-upsetmovies",
@@ -586,35 +666,35 @@
         },
         {
           "id": "q5-upsetmovies",
-          "answer": 1
-        },
-        {
-          "id": "q6-upsetmovies",
-          "answer": 226
-        },
-        {
-          "id": "q7-upsetmovies",
-          "answer": 204
-        },
-        {
-          "id": "q8-upsetmovies",
           "answer": "Yes"
         },
         {
+          "id": "q6-upsetmovies",
+          "answer": "Fantasy"
+        },
+        {
+          "id": "q7-upsetmovies",
+          "answer": "Comedy"
+        },
+        {
+          "id": "q8-upsetmovies",
+          "answer": ["Comedy", "Drama"]
+        },
+        {
           "id": "q9-upsetmovies",
-          "answer": 20
+          "answer": 1
         },
         {
           "id": "q10-upsetmovies",
-          "answer": ["Drama", "Comedy"]
+          "answer": "Yes"
         },
         {
           "id": "q11-upsetmovies",
-          "answer": 65
+          "answer": ["Thriller", "Crime", "Mystery", "Drama", "SciFi", "Adventure", "Comedy", "Horror", "Romance"]
         },
         {
           "id": "q12-upsetmovies",
-          "answer": 178
+          "answer": "No"
         }
       ]
     },
@@ -633,22 +713,14 @@
         },
         {
           "id": "q2-upsetcovid",
-          "prompt": "Which symptom is reported by the most patients in this dataset?",
+          "prompt": "How many patients have both Cough and Fatigue?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Fever",
-            "Cough",
-            "Fatigue",
-            "Shortness of breath",
-            "Anosmia",
-            "Diarrhea"
-          ]
+          "type": "numerical"
         },
         {
           "id": "q3-upsetcovid",
-          "prompt": "Which symptom is reported by the fewest patients?",
+          "prompt": "Which symptom is reported by the most patients?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
@@ -663,20 +735,13 @@
         },
         {
           "id": "q4-upsetcovid",
-          "prompt": "How many patients belong to the most common combination of symptoms?",
+          "prompt": "How many patients belong to the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
           "id": "q5-upsetcovid",
-          "prompt": "How many symptoms make up the most common combination?",
-          "required": true,
-          "location": "sidebar",
-          "type": "numerical"
-        },
-        {
-          "id": "q6-upsetcovid",
           "prompt": "Do any patients have both Fever and Cough?",
           "required": true,
           "location": "sidebar",
@@ -684,27 +749,13 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q7-upsetcovid",
-          "prompt": "Do any patients have both Fever and Anosmia",
+          "id": "q6-upsetcovid",
+          "prompt": "Which symptoms belong to the least common intersection?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
-          "options": ["Yes", "No"]
-        },
-        {
-          "id": "q8-upsetcovid",
-          "prompt": "How many patients have Shortness of breath?",
-          "required": true,
-          "location": "sidebar",
-          "type": "numerical"
-        },
-        {
-          "id": "q9-upsetcovid",
-          "prompt": "Which symptoms does Fever overlap with?",
-          "required": true,
-          "location": "sidebar",
-          "type": "checkbox",
+           "type": "checkbox",
           "options": [
+            "Fever",
             "Cough",
             "Fatigue",
             "Shortness of breath",
@@ -713,8 +764,45 @@
           ]
         },
         {
+          "id": "q7-upsetcovid",
+          "prompt": "What is the second most common symptom combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q8-upsetcovid",
+          "prompt": "Which symptom(s) overlap(s) with the most other symptoms?",
+          "required": true,
+          "location": "sidebar",
+          "type": "checkbox",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
+        },
+        {
+          "id": "q9-upsetcovid",
+          "prompt": "How many symptoms make up the most common combination?",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical"
+        },
+        {
           "id": "q10-upsetcovid",
-          "prompt": "Do any patients have both Cough and Fatigue?",
+          "prompt": "Is Fatigue part of the largest intersection?",
           "required": true,
           "location": "sidebar",
           "type": "radio",
@@ -722,11 +810,18 @@
         },
         {
           "id": "q11-upsetcovid",
-          "prompt": "Do any patients have both Anosmia and Cough?",
+          "prompt": "Which symptoms does Fever overlap with?",
           "required": true,
           "location": "sidebar",
-          "type": "radio",
-          "options": ["Yes", "No"]
+          "type": "checkbox",
+          "options": [
+            "Fever",
+            "Cough",
+            "Fatigue",
+            "Shortness of breath",
+            "Anosmia",
+            "Diarrhea"
+          ]
         },
         {
           "id": "q12-upsetcovid",
@@ -744,11 +839,11 @@
         },
         {
           "id": "q2-upsetcovid",
-          "answer": "Fatigue"
+          "answer": 832
         },
         {
           "id": "q3-upsetcovid",
-          "answer": "Shortness of breath"
+          "answer": "Fatigue"
         },
         {
           "id": "q4-upsetcovid",
@@ -756,29 +851,23 @@
         },
         {
           "id": "q5-upsetcovid",
-          "answer": 2
+          "answer": "Yes"
         },
         {
           "id": "q6-upsetcovid",
-          "answer": "Yes"
+          "answer": ["Shortness of Breath", "Cough"]
         },
         {
           "id": "q7-upsetcovid",
-          "answer": "Yes"
+          "answer": ["Cough", "Anosmia", "Fatigue"]
         },
         {
           "id": "q8-upsetcovid",
-          "answer": 148
+          "answer": ["Shortness of Breath", "Diarrhea", "Fever", "Cough", "Anosmia", "Fatigue"]
         },
         {
           "id": "q9-upsetcovid",
-          "answer": [
-            "Cough",
-            "Fatigue",
-            "Shortness of breath",
-            "Anosmia",
-            "Diarrhea"
-          ]
+          "answer": 2
         },
         {
           "id": "q10-upsetcovid",
@@ -786,7 +875,7 @@
         },
         {
           "id": "q11-upsetcovid",
-          "answer": "Yes"
+          "answer": ["Fatigue", "Cough", "Anosmia", "Diarrhea", "Shortness of Breath"]
         },
         {
           "id": "q12-upsetcovid",
