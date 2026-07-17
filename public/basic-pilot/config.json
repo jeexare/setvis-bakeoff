@@ -179,7 +179,7 @@
         },
         {
           "id": "q6-upsettennis",
-          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
@@ -194,19 +194,6 @@
         },
         {
           "id": "q7-upsettennis",
-          "prompt": "What is the most common combination of sets that players belong to?",
-          "required": true,
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Mens & French Open",
-            "Womens & Australian Open",
-            "Mens & Australian Open",
-            "Womens & French Open"
-          ]
-        },
-        {
-          "id": "q8-upsettennis",
           "prompt": "Which set(s) overlap(s) with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -221,14 +208,14 @@
           ]
         },
         {
-          "id": "q9-upsettennis",
+          "id": "q8-upsettennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-upsettennis",
+          "id": "q9-upsettennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -236,7 +223,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-upsettennis",
+          "id": "q10-upsettennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -250,7 +237,7 @@
           ]
         },
         {
-          "id": "q12-upsettennis",
+          "id": "q11-upsettennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
@@ -285,26 +272,22 @@
         },
         {
           "id": "q7-upsettennis",
-          "answer": "Mens & French Open"
-        },
-        {
-          "id": "q8-upsettennis",
           "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
         },
         {
-          "id": "q9-upsettennis",
+          "id": "q8-upsettennis",
           "answer": 2
         },
         {
-          "id": "q10-upsettennis",
+          "id": "q9-upsettennis",
           "answer": "Yes"
         },
         {
-          "id": "q11-upsettennis",
+          "id": "q10-upsettennis",
           "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
         },
         {
-          "id": "q12-upsettennis",
+          "id": "q11-upsettennis",
           "answer": "No"
         }
       ]
@@ -897,7 +880,7 @@
         },
         {
           "id": "q6-metrotennis",
-          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
@@ -912,19 +895,6 @@
         },
         {
           "id": "q7-metrotennis",
-          "prompt": "What is the most common combination of sets that players belong to?",
-          "required": true,
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Mens & French Open",
-            "Womens & Australian Open",
-            "Mens & Australian Open",
-            "Womens & French Open"
-          ]
-        },
-        {
-          "id": "q8-metrotennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -939,14 +909,14 @@
           ]
         },
         {
-          "id": "q9-metrotennis",
+          "id": "q8-metrotennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-metrotennis",
+          "id": "q9-metrotennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -954,7 +924,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-metrotennis",
+          "id": "q10-metrotennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -968,7 +938,7 @@
           ]
         },
         {
-          "id": "q12-metrotennis",
+          "id": "q11-metrotennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
@@ -1002,26 +972,22 @@
         },
         {
           "id": "q7-metrotennis",
-          "answer": "Mens & French Open"
-        },
-        {
-          "id": "q8-metrotennis",
           "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
         },
         {
-          "id": "q9-metrotennis",
+          "id": "q8-metrotennis",
           "answer": 2
         },
         {
-          "id": "q10-metrotennis",
+          "id": "q9-metrotennis",
           "answer": "Yes"
         },
         {
-          "id": "q11-metrotennis",
+          "id": "q10-metrotennis",
           "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
         },
         {
-          "id": "q12-metrotennis",
+          "id": "q11-metrotennis",
           "answer": "No"
         }
       ]
@@ -1803,7 +1769,7 @@
         },
         {
           "id": "q6-hoopstennis",
-          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
@@ -1818,19 +1784,6 @@
         },
         {
           "id": "q7-hoopstennis",
-          "prompt": "What is the most common combination of sets that players belong to?",
-          "required": true,
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Mens & French Open",
-            "Womens & Australian Open",
-            "Mens & Australian Open",
-            "Womens & French Open"
-          ]
-        },
-        {
-          "id": "q8-hoopstennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -1845,14 +1798,14 @@
           ]
         },
         {
-          "id": "q9-hoopstennis",
+          "id": "q8-hoopstennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-hoopstennis",
+          "id": "q9-hoopstennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -1860,7 +1813,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-hoopstennis",
+          "id": "q10-hoopstennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -1874,7 +1827,7 @@
           ]
         },
         {
-          "id": "q12-hoopstennis",
+          "id": "q11-hoopstennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
@@ -1908,26 +1861,22 @@
         },
         {
           "id": "q7-hoopstennis",
-          "answer": "Mens & French Open"
-        },
-        {
-          "id": "q8-hoopstennis",
           "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
         },
         {
-          "id": "q9-hoopstennis",
+          "id": "q8-hoopstennis",
           "answer": 2
         },
         {
-          "id": "q10-hoopstennis",
+          "id": "q9-hoopstennis",
           "answer": "Yes"
         },
         {
-          "id": "q11-hoopstennis",
+          "id": "q10-hoopstennis",
           "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
         },
         {
-          "id": "q12-hoopstennis",
+          "id": "q11-hoopstennis",
           "answer": "No"
         }
       ]
@@ -2709,7 +2658,7 @@
         },
         {
           "id": "q6-venntennis",
-          "prompt": "The largest intersection has 13 players, which sets do they belong to?",
+          "prompt": "What is the most common combination of sets that players belong to?",
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
@@ -2724,19 +2673,6 @@
         },
         {
           "id": "q7-venntennis",
-          "prompt": "What is the most common combination of sets that players belong to?",
-          "required": true,
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Mens & French Open",
-            "Womens & Australian Open",
-            "Mens & Australian Open",
-            "Womens & French Open"
-          ]
-        },
-        {
-          "id": "q8-venntennis",
           "prompt": "Which sets overlap with the most other sets?",
           "required": true,
           "location": "sidebar",
@@ -2751,14 +2687,14 @@
           ]
         },
         {
-          "id": "q9-venntennis",
+          "id": "q8-venntennis",
           "prompt": "How many sets make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-venntennis",
+          "id": "q9-venntennis",
           "prompt": "Is the French Open part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -2766,7 +2702,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-venntennis",
+          "id": "q10-venntennis",
           "prompt": "Which tournaments does Wimbledon share winners with?",
           "required": true,
           "location": "sidebar",
@@ -2780,7 +2716,7 @@
           ]
         },
         {
-          "id": "q12-venntennis",
+          "id": "q11-venntennis",
           "prompt": "Is there any player who has won all Grand Slams in both categories?",
           "required": true,
           "location": "sidebar",
@@ -2814,26 +2750,22 @@
         },
         {
           "id": "q7-venntennis",
-          "answer": "Mens & French Open"
-        },
-        {
-          "id": "q8-venntennis",
           "answer": ["Wimbledon", "US Open","French Open","Australian Open"]
         },
         {
-          "id": "q9-venntennis",
+          "id": "q8-venntennis",
           "answer": 2
         },
         {
-          "id": "q10-venntennis",
+          "id": "q9-venntennis",
           "answer": "Yes"
         },
         {
-          "id": "q11-venntennis",
+          "id": "q10-venntennis",
           "answer": ["US Open","French Open","Australian Open","Mens","Womens"]
         },
         {
-          "id": "q12-venntennis",
+          "id": "q11-venntennis",
           "answer": "No"
         }
       ]
