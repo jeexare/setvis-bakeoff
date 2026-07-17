@@ -762,21 +762,6 @@
         },
         {
           "id": "q7-upsetcovid",
-          "prompt": "What is the second most common symptom combination?",
-          "required": true,
-          "location": "sidebar",
-          "type": "checkbox",
-          "options": [
-            "Fever",
-            "Cough",
-            "Fatigue",
-            "Shortness of breath",
-            "Anosmia",
-            "Diarrhea"
-          ]
-        },
-        {
-          "id": "q8-upsetcovid",
           "prompt": "Which symptom(s) overlap(s) with the most other symptoms?",
           "required": true,
           "location": "sidebar",
@@ -791,14 +776,14 @@
           ]
         },
         {
-          "id": "q9-upsetcovid",
+          "id": "q8-upsetcovid",
           "prompt": "How many symptoms make up the most common combination?",
           "required": true,
           "location": "sidebar",
           "type": "numerical"
         },
         {
-          "id": "q10-upsetcovid",
+          "id": "q9-upsetcovid",
           "prompt": "Is Fatigue part of the largest intersection?",
           "required": true,
           "location": "sidebar",
@@ -806,7 +791,7 @@
           "options": ["Yes", "No"]
         },
         {
-          "id": "q11-upsetcovid",
+          "id": "q10-upsetcovid",
           "prompt": "Which symptoms does Fever overlap with?",
           "required": true,
           "location": "sidebar",
@@ -820,7 +805,7 @@
           ]
         },
         {
-          "id": "q12-upsetcovid",
+          "id": "q11-upsetcovid",
           "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
           "required": true,
           "location": "sidebar",
@@ -855,26 +840,22 @@
         },
         {
           "id": "q7-upsetcovid",
-          "answer": ["Cough", "Fatigue", "Anosmia"]
-        },
-        {
-          "id": "q8-upsetcovid",
           "answer": ["Fever","Cough","Fatigue","Shortness of breath","Anosmia","Diarrhea"]
         },
         {
-          "id": "q9-upsetcovid",
+          "id": "q8-upsetcovid",
           "answer": 2
         },
         {
-          "id": "q10-upsetcovid",
+          "id": "q9-upsetcovid",
           "answer": "Yes"
         },
         {
-          "id": "q11-upsetcovid",
+          "id": "q10-upsetcovid",
           "answer": ["Fatigue", "Cough", "Anosmia", "Diarrhea", "Shortness of Breath"]
         },
         {
-          "id": "q12-upsetcovid",
+          "id": "q11-upsetcovid",
           "answer": "Yes"
         }
       ]
@@ -1681,21 +1662,6 @@
       },
       {
         "id": "q7-metrocovid",
-        "prompt": "What is the second most common symptom combination?",
-        "required": true,
-        "location": "sidebar",
-        "type": "checkbox",
-        "options": [
-          "Fever",
-          "Cough",
-          "Fatigue",
-          "Shortness of breath",
-          "Anosmia",
-          "Diarrhea"
-        ]
-      },
-      {
-        "id": "q8-metrocovid",
         "prompt": "Which symptom(s) overlap(s) with the most other symptoms?",
         "required": true,
         "location": "sidebar",
@@ -1710,14 +1676,14 @@
         ]
       },
       {
-        "id": "q9-metrocovid",
+        "id": "q8-metrocovid",
         "prompt": "How many symptoms make up the most common combination?",
         "required": true,
         "location": "sidebar",
         "type": "numerical"
       },
       {
-        "id": "q10-metrocovid",
+        "id": "q9-metrocovid",
         "prompt": "Is Fatigue part of the largest intersection?",
         "required": true,
         "location": "sidebar",
@@ -1728,7 +1694,7 @@
         ]
       },
       {
-        "id": "q11-metrocovid",
+        "id": "q10-metrocovid",
         "prompt": "Which symptoms does Fever overlap with?",
         "required": true,
         "location": "sidebar",
@@ -1742,7 +1708,7 @@
         ]
       },
       {
-        "id": "q12-metrocovid",
+        "id": "q11-metrocovid",
         "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
         "required": true,
         "location": "sidebar",
@@ -1784,14 +1750,6 @@
       {
         "id": "q7-metrocovid",
         "answer": [
-          "Cough",
-          "Fatigue",
-          "Anosmia"
-        ]
-      },
-      {
-        "id": "q8-metrocovid",
-        "answer": [
           "Fever",
           "Cough",
           "Fatigue",
@@ -1801,15 +1759,15 @@
         ]
       },
       {
-        "id": "q9-metrocovid",
+        "id": "q8-metrocovid",
         "answer": 2
       },
       {
-        "id": "q10-metrocovid",
+        "id": "q9-metrocovid",
         "answer": "Yes"
       },
       {
-        "id": "q11-metrocovid",
+        "id": "q10-metrocovid",
         "answer": [
           "Cough",
           "Fatigue",
@@ -1819,7 +1777,7 @@
         ]
       },
       {
-        "id": "q12-metrocovid",
+        "id": "q11-metrocovid",
         "answer": "Yes"
       }
     ]
@@ -2625,21 +2583,6 @@
       },
       {
         "id": "q7-hoopscovid",
-        "prompt": "What is the second most common symptom combination?",
-        "required": true,
-        "location": "sidebar",
-        "type": "checkbox",
-        "options": [
-          "Fever",
-          "Cough",
-          "Fatigue",
-          "Shortness of breath",
-          "Anosmia",
-          "Diarrhea"
-        ]
-      },
-      {
-        "id": "q8-hoopscovid",
         "prompt": "Which symptom(s) overlap(s) with the most other symptoms?",
         "required": true,
         "location": "sidebar",
@@ -2654,14 +2597,14 @@
         ]
       },
       {
-        "id": "q9-hoopscovid",
+        "id": "q8-hoopscovid",
         "prompt": "How many symptoms make up the most common combination?",
         "required": true,
         "location": "sidebar",
         "type": "numerical"
       },
       {
-        "id": "q10-hoopscovid",
+        "id": "q9-hoopscovid",
         "prompt": "Is Fatigue part of the largest intersection?",
         "required": true,
         "location": "sidebar",
@@ -2672,7 +2615,7 @@
         ]
       },
       {
-        "id": "q11-hoopscovid",
+        "id": "q10-hoopscovid",
         "prompt": "Which symptoms does Fever overlap with?",
         "required": true,
         "location": "sidebar",
@@ -2686,7 +2629,7 @@
         ]
       },
       {
-        "id": "q12-hoopscovid",
+        "id": "q11-hoopscovid",
         "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
         "required": true,
         "location": "sidebar",
@@ -2728,14 +2671,6 @@
       {
         "id": "q7-hoopscovid",
         "answer": [
-          "Cough",
-          "Fatigue",
-          "Anosmia"
-        ]
-      },
-      {
-        "id": "q8-hoopscovid",
-        "answer": [
           "Fever",
           "Cough",
           "Fatigue",
@@ -2745,15 +2680,15 @@
         ]
       },
       {
-        "id": "q9-hoopscovid",
+        "id": "q8-hoopscovid",
         "answer": 2
       },
       {
-        "id": "q10-hoopscovid",
+        "id": "q9-hoopscovid",
         "answer": "Yes"
       },
       {
-        "id": "q11-hoopscovid",
+        "id": "q10-hoopscovid",
         "answer": [
           "Cough",
           "Fatigue",
@@ -2763,7 +2698,7 @@
         ]
       },
       {
-        "id": "q12-hoopscovid",
+        "id": "q11-hoopscovid",
         "answer": "Yes"
       }
     ]
@@ -3569,21 +3504,6 @@
       },
       {
         "id": "q7-venncovid",
-        "prompt": "What is the second most common symptom combination?",
-        "required": true,
-        "location": "sidebar",
-        "type": "checkbox",
-        "options": [
-          "Fever",
-          "Cough",
-          "Fatigue",
-          "Shortness of breath",
-          "Anosmia",
-          "Diarrhea"
-        ]
-      },
-      {
-        "id": "q8-venncovid",
         "prompt": "Which symptom(s) overlap(s) with the most other symptoms?",
         "required": true,
         "location": "sidebar",
@@ -3598,14 +3518,14 @@
         ]
       },
       {
-        "id": "q9-venncovid",
+        "id": "q8-venncovid",
         "prompt": "How many symptoms make up the most common combination?",
         "required": true,
         "location": "sidebar",
         "type": "numerical"
       },
       {
-        "id": "q10-venncovid",
+        "id": "q9-venncovid",
         "prompt": "Is Fatigue part of the largest intersection?",
         "required": true,
         "location": "sidebar",
@@ -3616,7 +3536,7 @@
         ]
       },
       {
-        "id": "q11-venncovid",
+        "id": "q10-venncovid",
         "prompt": "Which symptoms does Fever overlap with?",
         "required": true,
         "location": "sidebar",
@@ -3630,7 +3550,7 @@
         ]
       },
       {
-        "id": "q12-venncovid",
+        "id": "q11-venncovid",
         "prompt": "Are there any patients who have only one symptom with no others in the dataset?",
         "required": true,
         "location": "sidebar",
@@ -3672,14 +3592,6 @@
       {
         "id": "q7-venncovid",
         "answer": [
-          "Cough",
-          "Fatigue",
-          "Anosmia"
-        ]
-      },
-      {
-        "id": "q8-venncovid",
-        "answer": [
           "Fever",
           "Cough",
           "Fatigue",
@@ -3689,15 +3601,15 @@
         ]
       },
       {
-        "id": "q9-venncovid",
+        "id": "q8-venncovid",
         "answer": 2
       },
       {
-        "id": "q10-venncovid",
+        "id": "q9-venncovid",
         "answer": "Yes"
       },
       {
-        "id": "q11-venncovid",
+        "id": "q10-venncovid",
         "answer": [
           "Cough",
           "Fatigue",
@@ -3707,7 +3619,7 @@
         ]
       },
       {
-        "id": "q12-venncovid",
+        "id": "q11-venncovid",
         "answer": "Yes"
       }
     ]
