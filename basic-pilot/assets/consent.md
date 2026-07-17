@@ -4,16 +4,19 @@ Please read the following consent form carefully, then complete the section belo
 This study investigates how different set visualization techniques compare in user performance across common set analysis tasks. We are evaluating accuracy and perceived workload across four visualization tools to identify their relative strengths and weaknesses.
 
 ## Procedure
-You will first complete a short visual literacy quiz (Mini-VLAT). Then, after a brief tutorial, you will use four different visualization tools to answer questions about four different datasets. After completing the tasks for each tool, you will fill out a short workload questionnaire (NASA-TLX). Finally, you will complete a short demographics survey.
+You will first complete a short visual literacy quiz (Mini-VLAT). Then, after a brief tutorial, you will use four different visualization tools to answer questions about four different datasets. While completing these tasks, you will be asked to "think aloud;" to verbalize your thoughts, observations, and reasoning as you work, so that we can better understand your decision-making process.  After completing the tasks for each tool, you will fill out a short workload questionnaire (NASA-TLX). Finally, you will complete a short demographics survey.
+
+## Audio Recording
+Before the main tasks begin, you will complete a brief microphone check to make sure your audio is being captured correctly. Your think-aloud commentary during the visualization tasks will be audio recorded. These recordings will be used only for research analysis (for example, transcription and coding of your verbal reasoning) and will be stored securely, accessible only to the study investigators. 
 
 ## Duration
 The estimated completion time for this study is 60 minutes.
 
 ## Privacy
-Your participation is anonymous and your responses cannot be used to identify you.
+Your responses and recordings will be kept confidential.
 
 ## Record Keeping
-Records of your participation will be held confidential so far as permitted by law. However, the study investigators and, under certain circumstances, the University of Utah Institutional Review Board may inspect and have access to this data. Any publication or presentation of the data will not identify you.
+Records of your participation,  including audio recordings, will be held confidential so far as permitted by law. However, the study investigators and, under certain circumstances, the University of Utah Institutional Review Board may inspect and have access to this data. Any publication or presentation of the data will not identify you.
 
 ## Eligibility
 By participating, you confirm that you are 18 years of age or older.
@@ -40,7 +43,7 @@ Contact the Institutional Review Board (IRB) if you have questions regarding you
 You may also contact the Research Participant Advocate (RPA) by phone at (801) 581-3803 or by email at participant.advocate@hsc.utah.edu.
 
 ## Consent
-By selecting **"Accept"** below, you confirm that:
-- You have read and understood the information above.
+By selecting **"Next"** below, you confirm that:
+- You have read and understood the information above, including that your think-aloud commentary will be audio recorded.
 - Your questions (if any) have been answered.
 - You voluntarily agree to participate in this study.
