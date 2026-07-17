@@ -620,14 +620,6 @@
         },
         {
           "id": "q10-upsetmovies",
-          "prompt": "Is Drama part of the largest intersection?",
-          "required": true,
-          "location": "sidebar",
-          "type": "radio",
-          "options": ["Yes", "No"]
-        },
-        {
-          "id": "q11-upsetmovies",
           "prompt": "Which genres does Noir overlap with?",
           "required": true,
           "location": "sidebar",
@@ -635,7 +627,7 @@
           "options": ["Action", "Adventure", "Children", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "Noir", "Horror", "Musical", "Mystery", "Romance", "SciFi", "Thriller", "War", "Western"]
         },
         {
-          "id": "q12-upsetmovies",
+          "id": "q11-upsetmovies",
           "prompt": "Is there a movie tagged with all 17 genres?",
           "required": true,
           "location": "sidebar",
@@ -682,14 +674,10 @@
         },
         {
           "id": "q10-upsetmovies",
-          "answer": "Yes"
-        },
-        {
-          "id": "q11-upsetmovies",
           "answer": ["Adventure","Comedy","Crime","Drama","Horror","Mystery","Romance","SciFi","Thriller"]
         },
         {
-          "id": "q12-upsetmovies",
+          "id": "q11-upsetmovies",
           "answer": "No"
         }
       ]
@@ -1481,17 +1469,6 @@
       },
       {
         "id": "q10-metromovies",
-        "prompt": "Is Drama part of the largest intersection?",
-        "required": true,
-        "location": "sidebar",
-        "type": "radio",
-        "options": [
-          "Yes",
-          "No"
-        ]
-      },
-      {
-        "id": "q11-metromovies",
         "prompt": "Which genres does Noir overlap with?",
         "required": true,
         "location": "sidebar",
@@ -1516,7 +1493,7 @@
         ]
       },
       {
-        "id": "q12-metromovies",
+        "id": "q11-metromovies",
         "prompt": "Is there a movie tagged with all 17 genres?",
         "required": true,
         "location": "sidebar",
@@ -1569,10 +1546,6 @@
       },
       {
         "id": "q10-metromovies",
-        "answer": "Yes"
-      },
-      {
-        "id": "q11-metromovies",
         "answer": [
           "Adventure",
           "Comedy",
@@ -1586,7 +1559,7 @@
         ]
       },
       {
-        "id": "q12-metromovies",
+        "id": "q11-metromovies",
         "answer": "No"
       }
     ]
@@ -2402,17 +2375,6 @@
       },
       {
         "id": "q10-hoopsmovies",
-        "prompt": "Is Drama part of the largest intersection?",
-        "required": true,
-        "location": "sidebar",
-        "type": "radio",
-        "options": [
-          "Yes",
-          "No"
-        ]
-      },
-      {
-        "id": "q11-hoopsmovies",
         "prompt": "Which genres does Noir overlap with?",
         "required": true,
         "location": "sidebar",
@@ -2437,7 +2399,7 @@
         ]
       },
       {
-        "id": "q12-hoopsmovies",
+        "id": "q11-hoopsmovies",
         "prompt": "Is there a movie tagged with all 17 genres?",
         "required": true,
         "location": "sidebar",
@@ -2490,10 +2452,6 @@
       },
       {
         "id": "q10-hoopsmovies",
-        "answer": "Yes"
-      },
-      {
-        "id": "q11-hoopsmovies",
         "answer": [
           "Adventure",
           "Comedy",
@@ -2507,7 +2465,7 @@
         ]
       },
       {
-        "id": "q12-hoopsmovies",
+        "id": "q11-hoopsmovies",
         "answer": "No"
       }
     ]
@@ -3323,17 +3281,6 @@
       },
       {
         "id": "q10-vennmovies",
-        "prompt": "Is Drama part of the largest intersection?",
-        "required": true,
-        "location": "sidebar",
-        "type": "radio",
-        "options": [
-          "Yes",
-          "No"
-        ]
-      },
-      {
-        "id": "q11-vennmovies",
         "prompt": "Which genres does Noir overlap with?",
         "required": true,
         "location": "sidebar",
@@ -3358,7 +3305,7 @@
         ]
       },
       {
-        "id": "q12-vennmovies",
+        "id": "q11-vennmovies",
         "prompt": "Is there a movie tagged with all 17 genres?",
         "required": true,
         "location": "sidebar",
@@ -3411,10 +3358,6 @@
       },
       {
         "id": "q10-vennmovies",
-        "answer": "Yes"
-      },
-      {
-        "id": "q11-vennmovies",
         "answer": [
           "Adventure",
           "Comedy",
@@ -3428,7 +3371,7 @@
         ]
       },
       {
-        "id": "q12-vennmovies",
+        "id": "q11-vennmovies",
         "answer": "No"
       }
     ]
