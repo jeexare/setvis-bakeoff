@@ -22,6 +22,7 @@
     "consent": {
       "type": "markdown",
       "path": "basic-pilot/assets/consent.md",
+      "withSidebar": false,
       "response": []
     },
     "minivlatintro": {
@@ -31,6 +32,7 @@
     },
     "demographics": {
       "type": "questionnaire",
+      "withSidebar": false,
       "response": [
         {
           "id": "experience",
@@ -119,11 +121,13 @@
     "studystart": {
       "type": "markdown",
       "path": "basic-pilot/assets/studystart.md",
+      "withSidebar": false,
       "response": []
     },
     "tutorial": {
       "type": "markdown",
       "path": "basic-pilot/assets/tutorial.md",
+      "withSidebar": false,
       "response": []
     },
     "upset-tennis": {
@@ -458,13 +462,6 @@
         },
         {
           "id": "q10-upsetorgs",
-          "prompt": "How many organizations make up the most common combination?",
-          "required": true,
-          "location": "sidebar",
-          "type": "numerical"
-        },
-        {
-          "id": "q11-upsetorgs",
           "prompt": "Among combinations tied for the largest intersection, which one involves the fewest organizations, and what are they?",
           "required": true,
           "location": "sidebar",
@@ -491,7 +488,7 @@
           ]
         },
         {
-          "id": "q12-upsetorgs",
+          "id": "q11-upsetorgs",
           "prompt": "Are there any countries that do not belong to any organization in this dataset?",
           "required": true,
           "location": "sidebar",
@@ -538,14 +535,10 @@
         },
         {
           "id": "q10-upsetorgs",
-          "answer": 11
-        },
-        {
-          "id": "q11-upsetorgs",
           "answer": ["ICC", "Interpol", "NATO", "UN", "UNESCO", "UPU", "WHO", "WTO"]
         },
         {
-          "id": "q12-upsetorgs",
+          "id": "q11-upsetorgs",
           "answer": "No"
         }
       ]
@@ -1223,13 +1216,6 @@
       },
       {
         "id": "q10-metroorgs",
-        "prompt": "How many organizations make up the most common combination?",
-        "required": true,
-        "location": "sidebar",
-        "type": "numerical"
-      },
-      {
-        "id": "q11-metroorgs",
         "prompt": "Among combinations tied for the largest intersection, which one involves the fewest organizations, and what are they?",
         "required": true,
         "location": "sidebar",
@@ -1256,7 +1242,7 @@
         ]
       },
       {
-        "id": "q12-metroorgs",
+        "id": "q11-metroorgs",
         "prompt": "Are there any countries that do not belong to any organization in this dataset?",
         "required": true,
         "location": "sidebar",
@@ -1355,10 +1341,6 @@
       },
       {
         "id": "q10-metroorgs",
-        "answer": 11
-      },
-      {
-        "id": "q11-metroorgs",
         "answer": [
           "ICC",
           "Interpol",
@@ -1371,7 +1353,7 @@
         ]
       },
       {
-        "id": "q12-metroorgs",
+        "id": "q11-metroorgs",
         "answer": "No"
       }
     ]
@@ -2178,13 +2160,6 @@
       },
       {
         "id": "q10-hoopsorgs",
-        "prompt": "How many organizations make up the most common combination?",
-        "required": true,
-        "location": "sidebar",
-        "type": "numerical"
-      },
-      {
-        "id": "q11-hoopsorgs",
         "prompt": "Among combinations tied for the largest intersection, which one involves the fewest organizations, and what are they?",
         "required": true,
         "location": "sidebar",
@@ -2211,7 +2186,7 @@
         ]
       },
       {
-        "id": "q12-hoopsorgs",
+        "id": "q11-hoopsorgs",
         "prompt": "Are there any countries that do not belong to any organization in this dataset?",
         "required": true,
         "location": "sidebar",
@@ -2310,10 +2285,6 @@
       },
       {
         "id": "q10-hoopsorgs",
-        "answer": 11
-      },
-      {
-        "id": "q11-hoopsorgs",
         "answer": [
           "ICC",
           "Interpol",
@@ -2326,7 +2297,7 @@
         ]
       },
       {
-        "id": "q12-hoopsorgs",
+        "id": "q11-hoopsorgs",
         "answer": "No"
       }
     ]
@@ -3133,13 +3104,6 @@
       },
       {
         "id": "q10-vennorgs",
-        "prompt": "How many organizations make up the most common combination?",
-        "required": true,
-        "location": "sidebar",
-        "type": "numerical"
-      },
-      {
-        "id": "q11-vennorgs",
         "prompt": "Among combinations tied for the largest intersection, which one involves the fewest organizations, and what are they?",
         "required": true,
         "location": "sidebar",
@@ -3166,7 +3130,7 @@
         ]
       },
       {
-        "id": "q12-vennorgs",
+        "id": "q11-vennorgs",
         "prompt": "Are there any countries that do not belong to any organization in this dataset?",
         "required": true,
         "location": "sidebar",
@@ -3265,10 +3229,6 @@
       },
       {
         "id": "q10-vennorgs",
-        "answer": 11
-      },
-      {
-        "id": "q11-vennorgs",
         "answer": [
           "ICC",
           "Interpol",
@@ -3281,7 +3241,7 @@
         ]
       },
       {
-        "id": "q12-vennorgs",
+        "id": "q11-vennorgs",
         "answer": "No"
       }
     ]
